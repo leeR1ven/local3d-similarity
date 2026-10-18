@@ -36,6 +36,7 @@
 | 人脸中心 foveated | `lfw_face_foveated.py` | `LFW_FACE_FOVEATED.md` | 4.52%，仍很低 |
 | LFW 静态身份 | `lfw_rigorous.py` | `LFW_RIGOROUS.md` | 固定身份神经元负结果 |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
+
 ## 主要结果
 
 ### 1. 相似画面 → 相似激活
@@ -263,6 +264,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
