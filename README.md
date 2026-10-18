@@ -33,6 +33,7 @@
 | 分辨率变化 | `resolution_test.py` | `RESOLUTION.md` | 48–256 都能认出 |
 | 1960×1080 tiled | `tiled_1960.py` | `TILED_1960.md` | patch/tile 100%（非精确等价） |
 | 精确 tiled 等价 | `tiled_exact.py` | `TILED_EXACT.md` | halo + 全局 top-k，bit-identical |
+| 1960 全图精确流式 | `tiled_1960_exact.py` | `TILED_1960_EXACT.md` | z=4 全图逐层 bit-identical |
 | 种子/层/读出 | `seed_eval.py`, `layer_eval.py` | `EVALUATION.md` | 种子波动不大，top-5 明显更高 |
 | Hebbian attractor | `recurrent_attractor.py` | `RECURRENT_ATTRACTOR.md` | 弱于 EMA，负结果 |
 | 人脸中心 foveated | `lfw_face_foveated.py` | `LFW_FACE_FOVEATED.md` | 4.52%，仍很低 |
@@ -275,6 +276,7 @@ FOVEATED.md         圆形中央高分辨率输入
 RESOLUTION.md       固定模型、改变分辨率
 TILED_1960.md       1960×1080 tiled streaming（非精确等价）
 TILED_EXACT.md      精确 tiled = 单体全图
+TILED_1960_EXACT.md 1960×1080 全图精确流式
 EVALUATION.md       种子/层/读出/评判方式
 RECURRENT_ATTRACTOR.md Hebbian recurrent attractor
 LFW_RIGOROUS.md     LFW 静态身份负结果
@@ -284,6 +286,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
