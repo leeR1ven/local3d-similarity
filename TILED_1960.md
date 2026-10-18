@@ -1,4 +1,4 @@
-# 1960×1080 彩色 tiled 实验
+﻿# 1960×1080 彩色 tiled 实验
 
 单体 1960×1080 网络约 22.5GB 连接，8GB GPU 放不下。  
 这里用 **tile streaming**：把 1960×1080 切成 10×10 个 108×196 的 tile，
@@ -34,7 +34,13 @@
 - 中心 patch 能被定位到正确 tile；
 - 这不是“全图全局网络”，tile 之间没有联合上下文。
 
-## 4. 限制
+## 4. 注意：这不是精确等价流式
+
+这里是**每个 tile 独立 top-k**，所以和单体全图不完全一样。
+精确等价需要 halo + 全局 top-k，见 [`TILED_EXACT.md`](TILED_EXACT.md)。
+这个测试只用于验证 1960×1080 的 tile 扫描/定位流程，不用于等价性声明。
+
+## 5. 限制
 
 - patch 放在 tile 正中心，没有跨 tile 边界；
 - 每个画布只有一个目标 patch；
@@ -42,7 +48,7 @@
 - 没有真实人脸/物体检测；
 - 不是单体 1960×1080 网络。
 
-## 5. 文件
+## 6. 文件
 
 ```
 threednet/tiled_1960.py
@@ -57,3 +63,5 @@ TILED_1960.md
 $py = "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\python.exe"
 & $py -m threednet.tiled_1960
 ```
+
+
