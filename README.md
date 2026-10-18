@@ -10,7 +10,7 @@
 4. 身份是否更像“连续观察的状态轨迹”，而不是固定神经元集合。
 
 > 这是研究原型，不是人脸识别/AGI 产品。  
-> 1960×1080 全分辨率尚未验证。
+> 1960×1080 只做了 tiled streaming 局部 patch，不是单体全图网络。
 
 ## 核心结构
 
@@ -22,6 +22,20 @@
 
 每层用全局 top-k 保证精确激活比例；权重固定，不训练。
 
+## 实验索引
+
+| 主题 | 代码 | 文档 | 结论 |
+|---|---|---|---|
+| 局部 patch 逐层 | `local_patterns_opaque.py` | `LOCAL_PATTERNS.md` | L1–L5 100%，前层 gap 更大 |
+| 模型变大 | `scaling_clean.py` | `MODEL_SCALING.md` | gap 随 z 增大，准确率饱和 |
+| 连续身份 | `temporal_identity.py` | `TEMPORAL_IDENTITY.md` | 单帧不同，状态轨迹保持身份 |
+| 圆形 foveated | `foveated.py` | `FOVEATED.md` | 几何不变，仅中心清晰 |
+| 分辨率变化 | `resolution_test.py` | `RESOLUTION.md` | 48–256 都能认出 |
+| 1960×1080 tiled | `tiled_1960.py` | `TILED_1960.md` | patch/tile 100% |
+| Hebbian attractor | `recurrent_attractor.py` | `RECURRENT_ATTRACTOR.md` | 弱于 EMA，负结果 |
+| 人脸中心 foveated | `lfw_face_foveated.py` | `LFW_FACE_FOVEATED.md` | 4.52%，仍很低 |
+| LFW 静态身份 | `lfw_rigorous.py` | `LFW_RIGOROUS.md` | 固定身份神经元负结果 |
+| 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 ## 主要结果
 
 ### 1. 相似画面 → 相似激活
@@ -249,6 +263,8 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
+
 
 
 
