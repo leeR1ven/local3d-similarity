@@ -75,22 +75,18 @@ LFW 157 人 / 4,286 张：
 
 结论：**没有稳定的固定身份神经元/组合**。
 
-### 5. 大模型 LFW 人脸测试
+### 5. 大模型 LFW：uniform vs foveated
 
-155 人 / 1,805 张 196×108，L5 30k 神经元，不选固定组合：
+155 人 / 1,805 张 108×196，L5 30k 神经元，不选固定组合：
 
-| 指标 | 数值 |
-|---|---:|
-| Rank-1 全部 | 5.16% |
-| 随机基线 | 0.65% |
-| 相似身份 rank-1 | 2.67% |
-| 不相似身份 rank-1 | **7.76%** |
-| 不相似不同人 true reject | 17.9% |
-| 相似不同人 true reject | 14.2% |
+| 输入 | Rank-1 全部 | 相似身份 | 不相似身份 |
+|---|---:|---:|---:|
+| uniform | 2.58% | 2.56% | 2.60% |
+| foveated（人脸中心） | **4.52%** | 3.85% | **5.19%** |
 
-方向符合直觉：**越不相似越容易区分**；但绝对水平仍远不能识别人脸。
+foveated 约 1.75 倍于 uniform；方向符合直觉，但绝对水平仍远不能识别人脸。
 
-![LFW face](results/fig_lfw_face_recognition.png)
+![LFW foveated](results/fig_lfw_face_foveated.png)
 
 ### 6. 连续观察：身份是状态轨迹
 
@@ -216,9 +212,10 @@ LFW 仅用于研究，遵守原数据集许可；不得用于监控/部署。
 & $py tests/test_foveated.py
 & $py tests/test_resolution.py
 & $py tests/test_tiled.py
+& $py tests/test_lfw_face_foveated.py
 ```
 
-仓库内包含 7 个关键测试；本地完整测试集 29 个通过（其余测试依赖旧分支，未全部打包）。
+仓库内包含 8 个关键测试；本地完整测试集 30 个通过（其余测试依赖旧分支，未全部打包）。
 
 ## 限制
 
@@ -240,7 +237,7 @@ results/            JSON + 图
 LOCAL_PATTERNS.md   局部 patch 逐层实验
 MODEL_SCALING.md    模型变大实验
 TEMPORAL_IDENTITY.md 连续观察身份
-LFW_FACE_RECOGNITION.md LFW 大模型人脸测试
+LFW_FACE_FOVEATED.md LFW 人脸中心 foveated
 FOVEATED.md         圆形中央高分辨率输入
 RESOLUTION.md       固定模型、改变分辨率
 TILED_1960.md       1960×1080 tiled streaming
@@ -252,6 +249,9 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
+
+
 
 
 
