@@ -1,0 +1,19 @@
+{
+  "canvas": [
+    1080,
+    1960
+  ],
+  "tile": [
+    108,
+    196
+  ],
+  "grid": [
+    10,
+    10
+  ],
+  "patterns": 10,
+  "pattern_accuracy": 1.0,
+  "tile_hit": 1.0,
+  "tile_adjacent_hit": 1.0,
+  "raw_pixel_pattern_accuracy": 1.0
+}
