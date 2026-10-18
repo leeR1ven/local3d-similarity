@@ -1,4 +1,4 @@
-# Local 3D Sparse Networks
+﻿# Local 3D Sparse Networks
 
 固定权重、局部连接的三维稀疏网络。没有卷积、没有训练、没有标签。
 
@@ -75,7 +75,24 @@ LFW 157 人 / 4,286 张：
 
 结论：**没有稳定的固定身份神经元/组合**。
 
-### 5. 连续观察：身份是状态轨迹
+### 5. 大模型 LFW 人脸测试
+
+155 人 / 1,805 张 196×108，L5 30k 神经元，不选固定组合：
+
+| 指标 | 数值 |
+|---|---:|
+| Rank-1 全部 | 5.16% |
+| 随机基线 | 0.65% |
+| 相似身份 rank-1 | 2.67% |
+| 不相似身份 rank-1 | **7.76%** |
+| 不相似不同人 true reject | 17.9% |
+| 相似不同人 true reject | 14.2% |
+
+方向符合直觉：**越不相似越容易区分**；但绝对水平仍远不能识别人脸。
+
+![LFW face](results/fig_lfw_face_recognition.png)
+
+### 6. 连续观察：身份是状态轨迹
 
 10 个身份 × 3 条序列 × 8 帧；姿势/光线/遮挡/背景变化；196×108：
 
@@ -97,20 +114,20 @@ s_t = normalize(0.8 * s_{t-1} + 0.2 * a_t)
 
 ![temporal](results/fig_temporal_identity.png)
 
-### 6. 圆形 foveated 输入
+### 7. 圆形 foveated 输入
 
 整幅圆形视野，中心高分辨率、边缘低分辨率：
 
 | 输入 | 检索准确率 | gap |
 |---|---:|---:|
 | 均匀 160×160 | 100% | 1,107 |
-| 圆形 foveated 160×160 | 100% | **2,481** |
+| 圆形 foveated 160×160 | 100% | 1,080 |
 
-中心放大后，目标与最相似他人的分离度约 2.2 倍。
+保持几何不变，只降低边缘清晰度；在这个中心目标任务上分离度与均匀输入基本相同。
 
 ![foveated](results/fig_foveated.png)
 
-### 7. 固定模型，改变分辨率
+### 8. 固定模型，改变分辨率
 
 模型固定 160×160；源分辨率 48–256；原型只在 128 训练：
 
@@ -124,7 +141,7 @@ s_t = normalize(0.8 * s_{t-1} + 0.2 * a_t)
 
 ![resolution](results/fig_resolution_test.png)
 
-### 8. 1960×1080 彩色 tiled
+### 9. 1960×1080 彩色 tiled
 
 10×10 个 108×196 tile，每个 tile 独立编码，不构建全图单体网络：
 
@@ -135,7 +152,7 @@ s_t = normalize(0.8 * s_{t-1} + 0.2 * a_t)
 
 ![tiled](results/fig_tiled_1960.png)
 
-### 9. Hebbian recurrent attractor：负结果
+### 10. Hebbian recurrent attractor：负结果
 
 512 维投影 + Hebbian 转移矩阵：
 
@@ -223,6 +240,7 @@ results/            JSON + 图
 LOCAL_PATTERNS.md   局部 patch 逐层实验
 MODEL_SCALING.md    模型变大实验
 TEMPORAL_IDENTITY.md 连续观察身份
+LFW_FACE_RECOGNITION.md LFW 大模型人脸测试
 FOVEATED.md         圆形中央高分辨率输入
 RESOLUTION.md       固定模型、改变分辨率
 TILED_1960.md       1960×1080 tiled streaming
@@ -234,5 +252,12 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
+
+
+
+
+
+
 
 
