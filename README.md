@@ -1,4 +1,4 @@
-﻿# Local 3D Sparse Networks
+# Local 3D Sparse Networks
 
 固定权重、局部连接的三维稀疏网络。没有卷积、没有训练、没有标签。
 
@@ -97,6 +97,56 @@ s_t = normalize(0.8 * s_{t-1} + 0.2 * a_t)
 
 ![temporal](results/fig_temporal_identity.png)
 
+### 6. 圆形 foveated 输入
+
+整幅圆形视野，中心高分辨率、边缘低分辨率：
+
+| 输入 | 检索准确率 | gap |
+|---|---:|---:|
+| 均匀 160×160 | 100% | 1,107 |
+| 圆形 foveated 160×160 | 100% | **2,481** |
+
+中心放大后，目标与最相似他人的分离度约 2.2 倍。
+
+![foveated](results/fig_foveated.png)
+
+### 7. 固定模型，改变分辨率
+
+模型固定 160×160；源分辨率 48–256；原型只在 128 训练：
+
+| 源分辨率 | 准确率 | gap |
+|---:|---:|---:|
+| 48 | 100% | 757 |
+| 128（训练） | 100% | **1,070** |
+| 256 | 100% | 1,002 |
+
+分辨率降到 48 仍能认出，gap 在训练分辨率附近最高。
+
+![resolution](results/fig_resolution_test.png)
+
+### 8. 1960×1080 彩色 tiled
+
+10×10 个 108×196 tile，每个 tile 独立编码，不构建全图单体网络：
+
+- patch 识别 100%；
+- 正确 tile 100%；
+- 原始像素基线 100%；
+- 10 个画布 ×100 tile 全部找对。
+
+![tiled](results/fig_tiled_1960.png)
+
+### 9. Hebbian recurrent attractor：负结果
+
+512 维投影 + Hebbian 转移矩阵：
+
+| 指标 | EMA | Hebbian attractor |
+|---|---:|---:|
+| 同身份 - 不同身份 | **0.201** | 0.056 |
+| 换人 drop | 0.005 | **0.027** |
+| 遮挡后同 - 不同 | **0.311** | 0.062 |
+
+Hebbian 版本能跑，但身份分离和遮挡恢复弱于 EMA；需要更好的 recurrent 结构，而不是只加 W。
+
 ## 快速开始
 
 ```powershell
@@ -111,6 +161,14 @@ pip install -r requirements.txt
 
 # 连续观察
 & $py -m threednet.temporal_identity
+
+# foveated / 分辨率
+& $py -m threednet.foveated
+& $py -m threednet.resolution_test
+
+# 1960×1080 tiled / recurrent attractor
+& $py -m threednet.tiled_1960
+& $py -m threednet.recurrent_attractor
 ```
 
 ## LFW 复现
@@ -138,18 +196,22 @@ LFW 仅用于研究，遵守原数据集许可；不得用于监控/部署。
 & $py tests/test_threednet.py
 & $py tests/test_scaling.py
 & $py tests/test_temporal_identity.py
+& $py tests/test_foveated.py
+& $py tests/test_resolution.py
+& $py tests/test_tiled.py
 ```
 
-完整测试集 26 个通过。
+仓库内包含 7 个关键测试；本地完整测试集 29 个通过（其余测试依赖旧分支，未全部打包）。
 
 ## 限制
 
-- 1960×1080 彩色 tiled 未实现；
+- 1960×1080 只做了 tiled streaming，没有单体全图网络；
 - 单体 1960×1080 约 22.5GB 连接，8GB GPU 放不下；
-- 连续状态目前是 EMA，不是完整 recurrent attractor/Hebbian；
+- Hebbian recurrent attractor 已实现，但身份分离弱于 EMA；
 - 只有合成 patch/背景，没有真实视频；
 - 没有多 seed/置信区间；
 - 没有平移/尺度不变性要求，也不应强加；
+- foveated 与 1960×1080 还没有结合；
 - 不证明“足够大就能识别人脸”。
 
 ## 文件
@@ -161,6 +223,10 @@ results/            JSON + 图
 LOCAL_PATTERNS.md   局部 patch 逐层实验
 MODEL_SCALING.md    模型变大实验
 TEMPORAL_IDENTITY.md 连续观察身份
+FOVEATED.md         圆形中央高分辨率输入
+RESOLUTION.md       固定模型、改变分辨率
+TILED_1960.md       1960×1080 tiled streaming
+RECURRENT_ATTRACTOR.md Hebbian recurrent attractor
 LFW_RIGOROUS.md     LFW 静态身份负结果
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
