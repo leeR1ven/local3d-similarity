@@ -37,6 +37,7 @@
 | Hebbian attractor | `recurrent_attractor.py` | `RECURRENT_ATTRACTOR.md` | 弱于 EMA，负结果 |
 | 人脸中心 foveated | `lfw_face_foveated.py` | `LFW_FACE_FOVEATED.md` | 4.52%，仍很低 |
 | 人脸码碰撞/读出 | `face_readout.py` | `FACE_READOUT.md` | 0 碰撞，PCA+logistic 9.03% |
+| 不同人脸 pairwise | `face_pairwise.py` | `FACE_PAIRWISE.md` | AUC .614，判不同 precision 99.5% |
 | LFW 静态身份 | `lfw_rigorous.py` | `LFW_RIGOROUS.md` | 固定身份神经元负结果 |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
@@ -109,6 +110,8 @@ foveated 约 1.75 倍于 uniform；方向符合直觉，但绝对水平仍远不
 - pairwise AUC：**0.614**；
 - PCA + logistic rank-1：**9.03%**；
 - 所以模型有区分信息，低分主要是固定原型 rank-1 太严。
+
+按“不同人脸区分”看：AUC 0.614，判为不同的 precision 99.5%，但 recall 57.4%；判为相同的 precision 只有 0.87%。
 
 ![LFW foveated](results/fig_lfw_face_foveated.png)
 
@@ -264,6 +267,7 @@ MODEL_SCALING.md    模型变大实验
 TEMPORAL_IDENTITY.md 连续观察身份
 LFW_FACE_FOVEATED.md LFW 人脸中心 foveated
 FACE_READOUT.md     人脸码碰撞与读出方式
+FACE_PAIRWISE.md    不同人脸 pairwise 区分
 FOVEATED.md         圆形中央高分辨率输入
 RESOLUTION.md       固定模型、改变分辨率
 TILED_1960.md       1960×1080 tiled streaming（非精确等价）
@@ -277,6 +281,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
