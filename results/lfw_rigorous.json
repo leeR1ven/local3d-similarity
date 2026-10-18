@@ -1,0 +1,24 @@
+{
+  "n_identities": 157,
+  "n_images": 4286,
+  "mean_discovery": 9.636942675159236,
+  "mean_validation": 6.414012738853503,
+  "rank1_sanity": 0.07646474677259185,
+  "chance": 0.006369426751592357,
+  "target_rate_mean": 0.3656603773584906,
+  "max_other_rate_mean": 0.7472558755379014,
+  "gap_mean": -0.3815954981794108,
+  "gap_positive_fraction": 0.07646474677259185,
+  "stability_jaccard_mean": 0.004883817217885757,
+  "stability_jaccard_min": 0.0,
+  "nonempty_ids": 157,
+  "closest_pair": [
+    14,
+    79
+  ],
+  "closest_pair_name": [
+    "Bill_Clinton",
+    "John_Snow"
+  ],
+  "closest_pair_selected_overlap": 0.0
+}
