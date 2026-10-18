@@ -36,6 +36,7 @@
 | 种子/层/读出 | `seed_eval.py`, `layer_eval.py` | `EVALUATION.md` | 种子波动不大，top-5 明显更高 |
 | Hebbian attractor | `recurrent_attractor.py` | `RECURRENT_ATTRACTOR.md` | 弱于 EMA，负结果 |
 | 人脸中心 foveated | `lfw_face_foveated.py` | `LFW_FACE_FOVEATED.md` | 4.52%，仍很低 |
+| 人脸码碰撞/读出 | `face_readout.py` | `FACE_READOUT.md` | 0 碰撞，PCA+logistic 9.03% |
 | LFW 静态身份 | `lfw_rigorous.py` | `LFW_RIGOROUS.md` | 固定身份神经元负结果 |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
@@ -102,6 +103,12 @@ LFW 157 人 / 4,286 张：
 | foveated（人脸中心） | **4.52%** | 3.85% | **5.19%** |
 
 foveated 约 1.75 倍于 uniform；方向符合直觉，但绝对水平仍远不能识别人脸。
+
+- 不同身份激活码完全相同：**0 对**；
+- 不同身份最小 Hamming：**556 / 30,000**；
+- pairwise AUC：**0.614**；
+- PCA + logistic rank-1：**9.03%**；
+- 所以模型有区分信息，低分主要是固定原型 rank-1 太严。
 
 ![LFW foveated](results/fig_lfw_face_foveated.png)
 
@@ -256,6 +263,7 @@ LOCAL_PATTERNS.md   局部 patch 逐层实验
 MODEL_SCALING.md    模型变大实验
 TEMPORAL_IDENTITY.md 连续观察身份
 LFW_FACE_FOVEATED.md LFW 人脸中心 foveated
+FACE_READOUT.md     人脸码碰撞与读出方式
 FOVEATED.md         圆形中央高分辨率输入
 RESOLUTION.md       固定模型、改变分辨率
 TILED_1960.md       1960×1080 tiled streaming（非精确等价）
@@ -269,6 +277,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
