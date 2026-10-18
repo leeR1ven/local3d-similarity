@@ -1,0 +1,14 @@
+{
+  "identities": 155,
+  "train_pairs": 2146,
+  "val_pairs": 48050,
+  "val_same": 310,
+  "val_diff": 47740,
+  "same_accept": 0.567741935483871,
+  "diff_reject": 0.600062840385421,
+  "balanced_accuracy": 0.583902387934646,
+  "auc": 0.600058651026393,
+  "precision_same": 0.00913384192225855,
+  "precision_diff": 0.995344150654946,
+  "recall_diff": 0.600062840385421
+}
