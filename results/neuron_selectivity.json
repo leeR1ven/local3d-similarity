@@ -1,0 +1,61 @@
+{
+  "n_identities": 157,
+  "n_images": 471,
+  "layers": [
+    {
+      "layer": 1,
+      "neurons": 20000,
+      "mean_max_rate": 0.8581666666666666,
+      "mean_selectivity": 0.3454847525760677,
+      "n_sel_0.5": 6673,
+      "n_sel_0.8": 2575,
+      "max_selectivity": 0.9873403005149318,
+      "null_mean_selectivity": 0.34073473717546116,
+      "null_n_sel_0.5": 6609.5
+    },
+    {
+      "layer": 2,
+      "neurons": 20000,
+      "mean_max_rate": 0.6963,
+      "mean_selectivity": 0.290668128209607,
+      "n_sel_0.5": 5652,
+      "n_sel_0.8": 2388,
+      "max_selectivity": 0.9873403005149318,
+      "null_mean_selectivity": 0.28624682259061346,
+      "null_n_sel_0.5": 5612.4
+    },
+    {
+      "layer": 3,
+      "neurons": 20000,
+      "mean_max_rate": 0.5251,
+      "mean_selectivity": 0.2227064367081844,
+      "n_sel_0.5": 4333,
+      "n_sel_0.8": 1810,
+      "max_selectivity": 0.9873403005149318,
+      "null_mean_selectivity": 0.2197824777057909,
+      "null_n_sel_0.5": 4299.0
+    },
+    {
+      "layer": 4,
+      "neurons": 20000,
+      "mean_max_rate": 0.34496666666666664,
+      "mean_selectivity": 0.1450170532570391,
+      "n_sel_0.5": 2800,
+      "n_sel_0.8": 1208,
+      "max_selectivity": 0.9873403005149318,
+      "null_mean_selectivity": 0.14302291727986458,
+      "null_n_sel_0.5": 2776.4
+    },
+    {
+      "layer": 5,
+      "neurons": 20000,
+      "mean_max_rate": 0.1758,
+      "mean_selectivity": 0.07668934482827293,
+      "n_sel_0.5": 1480,
+      "n_sel_0.8": 675,
+      "max_selectivity": 0.9873403005149318,
+      "null_mean_selectivity": 0.07572049311852537,
+      "null_n_sel_0.5": 1468.8
+    }
+  ]
+}
