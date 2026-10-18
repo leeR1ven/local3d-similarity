@@ -1,0 +1,11 @@
+{
+  "n_images": 400,
+  "n_l5_subset": 20000,
+  "pixel_vs_activation_spearman": 0.9889494560826501,
+  "same_identity_activation_mean": 912.9941176470588,
+  "different_identity_activation_mean": 985.5689025924994,
+  "same_identity_pixel_mean": 61903.5546875,
+  "different_identity_pixel_mean": 66747.1015625,
+  "same_identity_pixel_ratio": 0.9274343252182007,
+  "same_identity_ratio": 0.9263625457798683
+}
