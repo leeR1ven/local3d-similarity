@@ -1,0 +1,14 @@
+{
+  "identities": 155,
+  "images": 1805,
+  "split": "2 discovery + 1 validation",
+  "neurons": 30000,
+  "different_face_exact_collisions": 0,
+  "min_cross_identity_hamming": 556.0,
+  "auc": 0.6136976499047259,
+  "nn1": 0.05806451612903226,
+  "top5": 0.15483870967741936,
+  "pca_logistic_rank1": 0.09032258064516129,
+  "pca_centroid_rank1": 0.06451612903225806,
+  "prototype_rank1": 0.04516129032258064
+}
