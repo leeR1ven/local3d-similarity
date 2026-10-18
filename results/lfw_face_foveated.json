@@ -1,0 +1,17 @@
+{
+  "uniform": {
+    "rank1": 0.025806451612903226,
+    "rank1_close": 0.02564102564102564,
+    "rank1_distinct": 0.025974025974025976,
+    "n_validation": 155
+  },
+  "foveated": {
+    "rank1": 0.04516129032258064,
+    "rank1_close": 0.038461538461538464,
+    "rank1_distinct": 0.05194805194805195,
+    "n_validation": 155
+  },
+  "identities": 155,
+  "images": 1805,
+  "split": "3 discovery + 1 validation per identity"
+}
