@@ -1,0 +1,41 @@
+{
+  "patterns": 20,
+  "backgrounds": 40,
+  "rows": [
+    {
+      "layer": 1,
+      "acc": 1.0,
+      "gap": 4589.4,
+      "positive": 1.0,
+      "pixel_vs_activation_spearman": 0.9987053147703465
+    },
+    {
+      "layer": 2,
+      "acc": 1.0,
+      "gap": 3729.0714999999996,
+      "positive": 1.0,
+      "pixel_vs_activation_spearman": 0.9981769432306772
+    },
+    {
+      "layer": 3,
+      "acc": 1.0,
+      "gap": 2766.2602500000003,
+      "positive": 1.0,
+      "pixel_vs_activation_spearman": 0.9987962926513492
+    },
+    {
+      "layer": 4,
+      "acc": 1.0,
+      "gap": 1862.97,
+      "positive": 1.0,
+      "pixel_vs_activation_spearman": 0.9980859653496744
+    },
+    {
+      "layer": 5,
+      "acc": 1.0,
+      "gap": 947.0607500000001,
+      "positive": 1.0,
+      "pixel_vs_activation_spearman": 0.9940706915631138
+    }
+  ]
+}
