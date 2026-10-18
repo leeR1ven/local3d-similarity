@@ -198,7 +198,7 @@ data/lfw/lfw/<person_name>/<image.jpg>
 & $py -m threednet.prepare_lfw
 & $py -m threednet.lfw_rigorous
 & $py -m threednet.prepare_lfw_large
-& $py -m threednet.lfw_large
+& $py -m threednet.lfw_face_foveated
 ```
 
 LFW 仅用于研究，遵守原数据集许可；不得用于监控/部署。
@@ -249,6 +249,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
