@@ -1,0 +1,26 @@
+{
+  "input": "196x108 color",
+  "n_identities": 155,
+  "n_images": 1805,
+  "mean_discovery": 6.896774193548387,
+  "mean_validation": 4.748387096774193,
+  "rank1_sanity": 0.03804347826086957,
+  "chance": 0.0064516129032258064,
+  "target_score_mean": 0.2848063087620413,
+  "max_other_score_mean": 0.6489495211078421,
+  "gap_mean": -0.36414321234580077,
+  "gap_positive_fraction": 0.03804347826086957,
+  "stability_jaccard_mean": 0.015052409092258542,
+  "stability_jaccard_min": 0.0,
+  "nonempty_ids": 155,
+  "combo_size": 2000,
+  "closest_pair": [
+    59,
+    72
+  ],
+  "closest_pair_name": [
+    "Jean-David_Levitte",
+    "John_Ashcroft"
+  ],
+  "closest_pair_overlap": 0.0
+}
