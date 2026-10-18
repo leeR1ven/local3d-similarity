@@ -1,0 +1,267 @@
+{
+  "patterns": 20,
+  "backgrounds": 12,
+  "raw_pixel_acc": 1.0,
+  "rows": [
+    {
+      "z": 15,
+      "l5_neurons": 317520,
+      "connections": 5080320,
+      "layers": [
+        {
+          "layer": 1,
+          "acc": 1.0,
+          "gap": 11837.183333333332,
+          "positive": 1.0,
+          "null_acc": 0.041666666666666664,
+          "pixel_vs_activation": 0.9981349534394451,
+          "feature_sum": 7372800
+        },
+        {
+          "layer": 2,
+          "acc": 1.0,
+          "gap": 2323.2,
+          "positive": 1.0,
+          "null_acc": 0.03333333333333333,
+          "pixel_vs_activation": 0.9389293478023157,
+          "feature_sum": 1467343
+        },
+        {
+          "layer": 3,
+          "acc": 1.0,
+          "gap": 1850.6416666666667,
+          "positive": 1.0,
+          "null_acc": 0.05,
+          "pixel_vs_activation": 0.8640090627966076,
+          "feature_sum": 1075808
+        },
+        {
+          "layer": 4,
+          "acc": 1.0,
+          "gap": 1195.0333333333333,
+          "positive": 1.0,
+          "null_acc": 0.08333333333333333,
+          "pixel_vs_activation": 0.7615522226158766,
+          "feature_sum": 696008
+        },
+        {
+          "layer": 5,
+          "acc": 0.9833333333333333,
+          "gap": 495.90833333333336,
+          "positive": 0.9833333333333333,
+          "null_acc": 0.058333333333333334,
+          "pixel_vs_activation": 0.6622848569941433,
+          "feature_sum": 346883
+        }
+      ]
+    },
+    {
+      "z": 30,
+      "l5_neurons": 635040,
+      "connections": 10160640,
+      "layers": [
+        {
+          "layer": 1,
+          "acc": 1.0,
+          "gap": 11837.183333333332,
+          "positive": 1.0,
+          "null_acc": 0.041666666666666664,
+          "pixel_vs_activation": 0.9981349534394451,
+          "feature_sum": 7372800
+        },
+        {
+          "layer": 2,
+          "acc": 1.0,
+          "gap": 4558.591666666666,
+          "positive": 1.0,
+          "null_acc": 0.03333333333333333,
+          "pixel_vs_activation": 0.9580032104694548,
+          "feature_sum": 2761414
+        },
+        {
+          "layer": 3,
+          "acc": 1.0,
+          "gap": 3354.008333333333,
+          "positive": 1.0,
+          "null_acc": 0.05,
+          "pixel_vs_activation": 0.8854920897356832,
+          "feature_sum": 1994346
+        },
+        {
+          "layer": 4,
+          "acc": 0.9916666666666667,
+          "gap": 2095.0916666666667,
+          "positive": 0.9916666666666667,
+          "null_acc": 0.08333333333333333,
+          "pixel_vs_activation": 0.7649586444295732,
+          "feature_sum": 1303299
+        },
+        {
+          "layer": 5,
+          "acc": 0.9,
+          "gap": 890.7333333333333,
+          "positive": 0.9,
+          "null_acc": 0.06666666666666667,
+          "pixel_vs_activation": 0.5637890537862983,
+          "feature_sum": 662035
+        }
+      ]
+    },
+    {
+      "z": 60,
+      "l5_neurons": 1270080,
+      "connections": 20321280,
+      "layers": [
+        {
+          "layer": 1,
+          "acc": 1.0,
+          "gap": 11837.183333333332,
+          "positive": 1.0,
+          "null_acc": 0.041666666666666664,
+          "pixel_vs_activation": 0.9981349534394451,
+          "feature_sum": 7372800
+        },
+        {
+          "layer": 2,
+          "acc": 1.0,
+          "gap": 10470.758333333333,
+          "positive": 1.0,
+          "null_acc": 0.03333333333333333,
+          "pixel_vs_activation": 0.9953111399790927,
+          "feature_sum": 5880089
+        },
+        {
+          "layer": 3,
+          "acc": 1.0,
+          "gap": 8459.008333333333,
+          "positive": 1.0,
+          "null_acc": 0.05,
+          "pixel_vs_activation": 0.9903493463151772,
+          "feature_sum": 4375502
+        },
+        {
+          "layer": 4,
+          "acc": 1.0,
+          "gap": 5919.233333333334,
+          "positive": 1.0,
+          "null_acc": 0.08333333333333333,
+          "pixel_vs_activation": 0.9825217493996774,
+          "feature_sum": 2867985
+        },
+        {
+          "layer": 5,
+          "acc": 1.0,
+          "gap": 2955.5416666666665,
+          "positive": 1.0,
+          "null_acc": 0.06666666666666667,
+          "pixel_vs_activation": 0.9555730513019024,
+          "feature_sum": 1399585
+        }
+      ]
+    },
+    {
+      "z": 120,
+      "l5_neurons": 2540160,
+      "connections": 40642560,
+      "layers": [
+        {
+          "layer": 1,
+          "acc": 1.0,
+          "gap": 11837.183333333332,
+          "positive": 1.0,
+          "null_acc": 0.041666666666666664,
+          "pixel_vs_activation": 0.9981349534394451,
+          "feature_sum": 7372800
+        },
+        {
+          "layer": 2,
+          "acc": 1.0,
+          "gap": 20969.8,
+          "positive": 1.0,
+          "null_acc": 0.03333333333333333,
+          "pixel_vs_activation": 0.9954213631810768,
+          "feature_sum": 11741216
+        },
+        {
+          "layer": 3,
+          "acc": 1.0,
+          "gap": 16490.5,
+          "positive": 1.0,
+          "null_acc": 0.05,
+          "pixel_vs_activation": 0.9841121127425895,
+          "feature_sum": 8740152
+        },
+        {
+          "layer": 4,
+          "acc": 1.0,
+          "gap": 10717.691666666668,
+          "positive": 1.0,
+          "null_acc": 0.08333333333333333,
+          "pixel_vs_activation": 0.9556377855633851,
+          "feature_sum": 5771779
+        },
+        {
+          "layer": 5,
+          "acc": 1.0,
+          "gap": 4724.016666666666,
+          "positive": 1.0,
+          "null_acc": 0.06666666666666667,
+          "pixel_vs_activation": 0.8295931801580742,
+          "feature_sum": 2809556
+        }
+      ]
+    },
+    {
+      "z": 240,
+      "l5_neurons": 5080320,
+      "connections": 81285120,
+      "layers": [
+        {
+          "layer": 1,
+          "acc": 1.0,
+          "gap": 11837.183333333332,
+          "positive": 1.0,
+          "null_acc": 0.041666666666666664,
+          "pixel_vs_activation": 0.9981349534394451,
+          "feature_sum": 7372800
+        },
+        {
+          "layer": 2,
+          "acc": 1.0,
+          "gap": 41952.03333333333,
+          "positive": 1.0,
+          "null_acc": 0.03333333333333333,
+          "pixel_vs_activation": 0.9959654808924582,
+          "feature_sum": 23586377
+        },
+        {
+          "layer": 3,
+          "acc": 1.0,
+          "gap": 31954.1,
+          "positive": 1.0,
+          "null_acc": 0.05,
+          "pixel_vs_activation": 0.9924978239665483,
+          "feature_sum": 17203609
+        },
+        {
+          "layer": 4,
+          "acc": 1.0,
+          "gap": 20821.525,
+          "positive": 1.0,
+          "null_acc": 0.08333333333333333,
+          "pixel_vs_activation": 0.9760885634680069,
+          "feature_sum": 11234346
+        },
+        {
+          "layer": 5,
+          "acc": 1.0,
+          "gap": 9989.308333333332,
+          "positive": 1.0,
+          "null_acc": 0.06666666666666667,
+          "pixel_vs_activation": 0.8916838343677694,
+          "feature_sum": 5599018
+        }
+      ]
+    }
+  ]
+}
