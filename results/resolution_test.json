@@ -1,0 +1,36 @@
+{
+  "model_input": 160,
+  "train_resolution": 128,
+  "rows": [
+    {
+      "resolution": 48,
+      "acc": 1.0,
+      "gap": 757.1166666666667
+    },
+    {
+      "resolution": 64,
+      "acc": 1.0,
+      "gap": 856.7166666666666
+    },
+    {
+      "resolution": 96,
+      "acc": 1.0,
+      "gap": 945.5666666666666
+    },
+    {
+      "resolution": 128,
+      "acc": 1.0,
+      "gap": 1070.45
+    },
+    {
+      "resolution": 192,
+      "acc": 1.0,
+      "gap": 1024.1500000000003
+    },
+    {
+      "resolution": 256,
+      "acc": 1.0,
+      "gap": 1002.1333333333336
+    }
+  ]
+}
