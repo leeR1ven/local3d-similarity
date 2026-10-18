@@ -5,8 +5,8 @@
   },
   "foveated": {
     "acc": 1.0,
-    "gap": 2480.9666666666662
+    "gap": 1079.8944444444444
   },
   "out_size": 160,
-  "gamma": 2.0
+  "geometry": "preserved; peripheral blur only"
 }
