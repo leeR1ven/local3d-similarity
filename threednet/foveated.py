@@ -60,7 +60,8 @@ def uniform(img):
     return cv2.resize(img.astype(np.uint8), (OUT, OUT), interpolation=cv2.INTER_AREA).astype(np.int64)
 
 
-def foveate(img, gamma=2.0):
+def foveate_warp(img, gamma=2.0):
+    """Diagnostic only: log-polar warp.  This changes geometry."""
     yy, xx = np.mgrid[0:OUT, 0:OUT]
     u = (xx + .5) / OUT * 2 - 1
     v = (yy + .5) / OUT * 2 - 1
@@ -73,6 +74,26 @@ def foveate(img, gamma=2.0):
     my = (cy + rs * np.sin(theta) * R).astype(np.float32)
     out = cv2.remap(img.astype(np.float32), mx, my, interpolation=cv2.INTER_LINEAR,
                     borderMode=cv2.BORDER_REFLECT)
+    out[r > 1] = 0
+    return np.clip(out, 0, 9).astype(np.int64), r <= 1
+
+
+def foveate(img):
+    """Geometry-preserving foveation: sharp center, blurred periphery.
+
+    No coordinate warp.  The circle is masked; local shapes stay in the same
+    place; only acuity falls off with eccentricity.
+    """
+    base = cv2.resize(img.astype(np.uint8), (OUT, OUT), interpolation=cv2.INTER_AREA)
+    small = cv2.resize(base, (OUT // 4, OUT // 4), interpolation=cv2.INTER_AREA)
+    blurred = cv2.resize(small, (OUT, OUT), interpolation=cv2.INTER_LINEAR)
+    yy, xx = np.mgrid[0:OUT, 0:OUT]
+    u = (xx + .5) / OUT * 2 - 1
+    v = (yy + .5) / OUT * 2 - 1
+    r = np.sqrt(u * u + v * v)
+    a = np.clip((r - 0.35) / (0.95 - 0.35), 0, 1)
+    a = a * a * (3 - 2 * a)  # smoothstep
+    out = (1 - a[..., None]) * base.astype(np.float32) + a[..., None] * blurred.astype(np.float32)
     out[r > 1] = 0
     return np.clip(out, 0, 9).astype(np.int64), r <= 1
 
@@ -123,20 +144,20 @@ def main():
         out[name] = {"acc": correct / 60, "gap": float(np.mean(gaps))}
 
     out["out_size"] = OUT
-    out["gamma"] = 2.0
+    out["geometry"] = "preserved; peripheral blur only"
     with open("results/foveated.json", "w", encoding="utf-8") as fp:
         json.dump(out, fp, ensure_ascii=False, indent=2)
     print(json.dumps(out, ensure_ascii=False, indent=2))
 
     src, u, f, mask = examples
-    fig, axes = plt.subplots(2, 2, figsize=(10, 8))
-    axes[0, 0].imshow(src / 9.0); axes[0, 0].set_title("source 256×256", fontsize=9)
-    axes[0, 1].imshow(u / 9.0); axes[0, 1].set_title("uniform 160×160", fontsize=9)
-    axes[1, 0].imshow(f / 9.0); axes[1, 0].set_title("foveated 160×160 (γ=2)", fontsize=9)
-    axes[1, 1].imshow(mask, cmap="gray"); axes[1, 1].set_title("circular field", fontsize=9)
+    fig, axes = plt.subplots(1, 4, figsize=(14, 4.2))
+    axes[0].imshow(src / 9.0); axes[0].set_title("source 256×256", fontsize=9)
+    axes[1].imshow(u / 9.0); axes[1].set_title("uniform 160×160", fontsize=9)
+    axes[2].imshow(f / 9.0); axes[2].set_title("foveated: sharp center, blurred edge", fontsize=9)
+    axes[3].imshow(mask, cmap="gray"); axes[3].set_title("circular field", fontsize=9)
     for ax in axes.ravel():
         ax.set_xticks([]); ax.set_yticks([])
-    fig.suptitle("圆形中央高分辨率输入：中心更多像素，边缘更少", fontsize=12)
+    fig.suptitle("圆形视野：不扭曲几何，只降低边缘清晰度", fontsize=12)
     fig.tight_layout(); fig.savefig("results/fig_foveated.png", bbox_inches="tight"); plt.close(fig)
     print("saved results/fig_foveated.png")
 
