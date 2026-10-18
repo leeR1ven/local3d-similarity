@@ -1,0 +1,23 @@
+{
+  "identities": 155,
+  "train_same_pairs": 155,
+  "train_diff_pairs": 47740,
+  "threshold": 1241.0,
+  "train_balanced_accuracy": 0.6085777126099707,
+  "val_same_pairs": 310,
+  "val_diff_pairs": 47740,
+  "same_accept_rate": 0.5741935483870968,
+  "different_reject_rate": 0.5743611227482195,
+  "balanced_accuracy": 0.5742773355676581,
+  "pair_accuracy": 0.574360041623309,
+  "auc": 0.6136976499047259,
+  "same_mean": 1201.80322265625,
+  "diff_mean": 1323.0235595703125,
+  "precision_different": 0.5742648906760492,
+  "precision_same": 0.5742897846308556,
+  "recall_different": 0.5743611227482195,
+  "precision_different_actual": 0.9952090592334495,
+  "precision_same_actual": 0.008683774026734316,
+  "recall_different_actual": 0.5743611227482195,
+  "recall_same_actual": 0.5741935483870968
+}
