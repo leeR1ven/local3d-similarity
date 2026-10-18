@@ -18,8 +18,7 @@
 - 60% discovery（选神经元），40% validation（验证）；
 - discovery 再分 A/B 两半，用于稳定性检验。
 
-> **修正：** 早期版本的 top-10 相似身份用了全部图片（含 validation），属于泄漏。
-> 下面所有数字都已改成“只用 discovery 图片算相似身份”后的结果。
+top-10 相似身份只用 discovery 图片计算，validation 不参与选择。
 
 ## 2. 网络
 
