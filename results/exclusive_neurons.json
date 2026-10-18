@@ -1,0 +1,1580 @@
+{
+  "identities": 157,
+  "images": 4286,
+  "strict_exclusive_total": 0,
+  "near_exclusive_total": 20909262,
+  "ids_with_exclusive": 0,
+  "ids_with_near": 157,
+  "rows": [
+    {
+      "id": 0,
+      "name": "Abdullah_Gul",
+      "exclusive": 0,
+      "near": 130523,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 8
+    },
+    {
+      "id": 1,
+      "name": "Adrien_Brody",
+      "exclusive": 0,
+      "near": 117525,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 2,
+      "name": "Alejandro_Toledo",
+      "exclusive": 0,
+      "near": 137063,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 23,
+      "n_val": 16
+    },
+    {
+      "id": 3,
+      "name": "Alvaro_Uribe",
+      "exclusive": 0,
+      "near": 125835,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 21,
+      "n_val": 14
+    },
+    {
+      "id": 4,
+      "name": "Amelie_Mauresmo",
+      "exclusive": 0,
+      "near": 134800,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 8
+    },
+    {
+      "id": 5,
+      "name": "Andre_Agassi",
+      "exclusive": 0,
+      "near": 135160,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 21,
+      "n_val": 14
+    },
+    {
+      "id": 6,
+      "name": "Andy_Roddick",
+      "exclusive": 0,
+      "near": 129892,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 7,
+      "name": "Angelina_Jolie",
+      "exclusive": 0,
+      "near": 128912,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 12,
+      "n_val": 8
+    },
+    {
+      "id": 8,
+      "name": "Ann_Veneman",
+      "exclusive": 0,
+      "near": 161088,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 9,
+      "name": "Anna_Kournikova",
+      "exclusive": 0,
+      "near": 139419,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 10,
+      "name": "Ari_Fleischer",
+      "exclusive": 0,
+      "near": 140578,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 11,
+      "name": "Ariel_Sharon",
+      "exclusive": 0,
+      "near": 135823,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 46,
+      "n_val": 30
+    },
+    {
+      "id": 12,
+      "name": "Arnold_Schwarzenegger",
+      "exclusive": 0,
+      "near": 133530,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 25,
+      "n_val": 16
+    },
+    {
+      "id": 13,
+      "name": "Atal_Bihari_Vajpayee",
+      "exclusive": 0,
+      "near": 124162,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 14,
+      "n_val": 10
+    },
+    {
+      "id": 14,
+      "name": "Bill_Clinton",
+      "exclusive": 0,
+      "near": 133833,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 17,
+      "n_val": 12
+    },
+    {
+      "id": 15,
+      "name": "Bill_Gates",
+      "exclusive": 0,
+      "near": 130356,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 16,
+      "name": "Bill_McBride",
+      "exclusive": 0,
+      "near": 148424,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 17,
+      "name": "Bill_Simon",
+      "exclusive": 0,
+      "near": 109400,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 18,
+      "name": "Britney_Spears",
+      "exclusive": 0,
+      "near": 132603,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 19,
+      "name": "Carlos_Menem",
+      "exclusive": 0,
+      "near": 112435,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 8
+    },
+    {
+      "id": 20,
+      "name": "Carlos_Moya",
+      "exclusive": 0,
+      "near": 146172,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 7
+    },
+    {
+      "id": 21,
+      "name": "Catherine_Zeta-Jones",
+      "exclusive": 0,
+      "near": 146445,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 22,
+      "name": "Charles_Moose",
+      "exclusive": 0,
+      "near": 122178,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 23,
+      "name": "Colin_Powell",
+      "exclusive": 0,
+      "near": 125320,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 140,
+      "n_val": 94
+    },
+    {
+      "id": 24,
+      "name": "Condoleezza_Rice",
+      "exclusive": 0,
+      "near": 129035,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 25,
+      "name": "David_Beckham",
+      "exclusive": 0,
+      "near": 122717,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 19,
+      "n_val": 12
+    },
+    {
+      "id": 26,
+      "name": "David_Nalbandian",
+      "exclusive": 0,
+      "near": 136909,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 27,
+      "name": "Dick_Cheney",
+      "exclusive": 0,
+      "near": 124242,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 28,
+      "name": "Dominique_de_Villepin",
+      "exclusive": 0,
+      "near": 130124,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 29,
+      "name": "Donald_Rumsfeld",
+      "exclusive": 0,
+      "near": 134105,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 73,
+      "n_val": 48
+    },
+    {
+      "id": 30,
+      "name": "Edmund_Stoiber",
+      "exclusive": 0,
+      "near": 124217,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 31,
+      "name": "Eduardo_Duhalde",
+      "exclusive": 0,
+      "near": 125190,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 32,
+      "name": "Fidel_Castro",
+      "exclusive": 0,
+      "near": 141011,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 7
+    },
+    {
+      "id": 33,
+      "name": "George_HW_Bush",
+      "exclusive": 0,
+      "near": 115483,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 34,
+      "name": "George_Robertson",
+      "exclusive": 0,
+      "near": 116991,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 9
+    },
+    {
+      "id": 35,
+      "name": "George_W_Bush",
+      "exclusive": 0,
+      "near": 2335,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 317,
+      "n_val": 212
+    },
+    {
+      "id": 36,
+      "name": "Gerhard_Schroeder",
+      "exclusive": 0,
+      "near": 129881,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 65,
+      "n_val": 44
+    },
+    {
+      "id": 37,
+      "name": "Gloria_Macapagal_Arroyo",
+      "exclusive": 0,
+      "near": 120921,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 26,
+      "n_val": 18
+    },
+    {
+      "id": 38,
+      "name": "Gonzalo_Sanchez_de_Lozada",
+      "exclusive": 0,
+      "near": 111144,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 39,
+      "name": "Gordon_Brown",
+      "exclusive": 0,
+      "near": 131071,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 40,
+      "name": "Gray_Davis",
+      "exclusive": 0,
+      "near": 120067,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 16,
+      "n_val": 10
+    },
+    {
+      "id": 41,
+      "name": "Guillermo_Coria",
+      "exclusive": 0,
+      "near": 132422,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 17,
+      "n_val": 12
+    },
+    {
+      "id": 42,
+      "name": "Halle_Berry",
+      "exclusive": 0,
+      "near": 160552,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 6
+    },
+    {
+      "id": 43,
+      "name": "Hamid_Karzai",
+      "exclusive": 0,
+      "near": 126619,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 9
+    },
+    {
+      "id": 44,
+      "name": "Hans_Blix",
+      "exclusive": 0,
+      "near": 127580,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 23,
+      "n_val": 16
+    },
+    {
+      "id": 45,
+      "name": "Harrison_Ford",
+      "exclusive": 0,
+      "near": 135362,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 46,
+      "name": "Hillary_Clinton",
+      "exclusive": 0,
+      "near": 131917,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 47,
+      "name": "Howard_Dean",
+      "exclusive": 0,
+      "near": 130482,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 48,
+      "name": "Hu_Jintao",
+      "exclusive": 0,
+      "near": 119286,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 49,
+      "name": "Hugo_Chavez",
+      "exclusive": 0,
+      "near": 118865,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 43,
+      "n_val": 28
+    },
+    {
+      "id": 50,
+      "name": "Ian_Thorpe",
+      "exclusive": 0,
+      "near": 142107,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 51,
+      "name": "Igor_Ivanov",
+      "exclusive": 0,
+      "near": 134392,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 8
+    },
+    {
+      "id": 52,
+      "name": "Jack_Straw",
+      "exclusive": 0,
+      "near": 122469,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 17,
+      "n_val": 11
+    },
+    {
+      "id": 53,
+      "name": "Jackie_Chan",
+      "exclusive": 0,
+      "near": 130169,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 54,
+      "name": "Jacques_Chirac",
+      "exclusive": 0,
+      "near": 121001,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 31,
+      "n_val": 20
+    },
+    {
+      "id": 55,
+      "name": "Jacques_Rogge",
+      "exclusive": 0,
+      "near": 147985,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 56,
+      "name": "James_Blake",
+      "exclusive": 0,
+      "near": 119815,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 57,
+      "name": "James_Kelly",
+      "exclusive": 0,
+      "near": 152286,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 58,
+      "name": "Jason_Kidd",
+      "exclusive": 0,
+      "near": 145749,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 59,
+      "name": "Javier_Solana",
+      "exclusive": 0,
+      "near": 147049,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 60,
+      "name": "Jean-David_Levitte",
+      "exclusive": 0,
+      "near": 167001,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 61,
+      "name": "Jean_Charest",
+      "exclusive": 0,
+      "near": 139563,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 62,
+      "name": "Jean_Chretien",
+      "exclusive": 0,
+      "near": 130710,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 33,
+      "n_val": 22
+    },
+    {
+      "id": 63,
+      "name": "Jeb_Bush",
+      "exclusive": 0,
+      "near": 143859,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 64,
+      "name": "Jennifer_Aniston",
+      "exclusive": 0,
+      "near": 143613,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 8
+    },
+    {
+      "id": 65,
+      "name": "Jennifer_Capriati",
+      "exclusive": 0,
+      "near": 136070,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 25,
+      "n_val": 16
+    },
+    {
+      "id": 66,
+      "name": "Jennifer_Garner",
+      "exclusive": 0,
+      "near": 140609,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 67,
+      "name": "Jennifer_Lopez",
+      "exclusive": 0,
+      "near": 123413,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 8
+    },
+    {
+      "id": 68,
+      "name": "Jeremy_Greenstock",
+      "exclusive": 0,
+      "near": 125566,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 14,
+      "n_val": 10
+    },
+    {
+      "id": 69,
+      "name": "Jiang_Zemin",
+      "exclusive": 0,
+      "near": 139755,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 12,
+      "n_val": 8
+    },
+    {
+      "id": 70,
+      "name": "Jiri_Novak",
+      "exclusive": 0,
+      "near": 154016,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 71,
+      "name": "Joe_Lieberman",
+      "exclusive": 0,
+      "near": 143444,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 72,
+      "name": "John_Allen_Muhammad",
+      "exclusive": 0,
+      "near": 158442,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 73,
+      "name": "John_Ashcroft",
+      "exclusive": 0,
+      "near": 128924,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 32,
+      "n_val": 21
+    },
+    {
+      "id": 74,
+      "name": "John_Bolton",
+      "exclusive": 0,
+      "near": 136361,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 75,
+      "name": "John_Howard",
+      "exclusive": 0,
+      "near": 125612,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 7
+    },
+    {
+      "id": 76,
+      "name": "John_Kerry",
+      "exclusive": 0,
+      "near": 153334,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 77,
+      "name": "John_Negroponte",
+      "exclusive": 0,
+      "near": 139146,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 19,
+      "n_val": 12
+    },
+    {
+      "id": 78,
+      "name": "John_Paul_II",
+      "exclusive": 0,
+      "near": 150600,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 79,
+      "name": "John_Snow",
+      "exclusive": 0,
+      "near": 149681,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 80,
+      "name": "Joschka_Fischer",
+      "exclusive": 0,
+      "near": 147743,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 8
+    },
+    {
+      "id": 81,
+      "name": "Jose_Maria_Aznar",
+      "exclusive": 0,
+      "near": 116647,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 14,
+      "n_val": 9
+    },
+    {
+      "id": 82,
+      "name": "Juan_Carlos_Ferrero",
+      "exclusive": 0,
+      "near": 134712,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 17,
+      "n_val": 11
+    },
+    {
+      "id": 83,
+      "name": "Julianne_Moore",
+      "exclusive": 0,
+      "near": 151594,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 8
+    },
+    {
+      "id": 84,
+      "name": "Julie_Gerberding",
+      "exclusive": 0,
+      "near": 124353,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 85,
+      "name": "Junichiro_Koizumi",
+      "exclusive": 0,
+      "near": 133283,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 36,
+      "n_val": 24
+    },
+    {
+      "id": 86,
+      "name": "Keanu_Reeves",
+      "exclusive": 0,
+      "near": 143696,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 87,
+      "name": "Kim_Clijsters",
+      "exclusive": 0,
+      "near": 129888,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 88,
+      "name": "Kim_Ryong-sung",
+      "exclusive": 0,
+      "near": 150241,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 89,
+      "name": "Kofi_Annan",
+      "exclusive": 0,
+      "near": 138681,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 19,
+      "n_val": 13
+    },
+    {
+      "id": 90,
+      "name": "Lance_Armstrong",
+      "exclusive": 0,
+      "near": 141501,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 91,
+      "name": "Laura_Bush",
+      "exclusive": 0,
+      "near": 130242,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 25,
+      "n_val": 16
+    },
+    {
+      "id": 92,
+      "name": "Lindsay_Davenport",
+      "exclusive": 0,
+      "near": 138003,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 8
+    },
+    {
+      "id": 93,
+      "name": "Lleyton_Hewitt",
+      "exclusive": 0,
+      "near": 133181,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 25,
+      "n_val": 16
+    },
+    {
+      "id": 94,
+      "name": "Lucio_Gutierrez",
+      "exclusive": 0,
+      "near": 139154,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 95,
+      "name": "Luiz_Inacio_Lula_da_Silva",
+      "exclusive": 0,
+      "near": 115660,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 29,
+      "n_val": 19
+    },
+    {
+      "id": 96,
+      "name": "Mahathir_Mohamad",
+      "exclusive": 0,
+      "near": 113835,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 97,
+      "name": "Mahmoud_Abbas",
+      "exclusive": 0,
+      "near": 127810,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 17,
+      "n_val": 12
+    },
+    {
+      "id": 98,
+      "name": "Mark_Philippoussis",
+      "exclusive": 0,
+      "near": 148636,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 99,
+      "name": "Megawati_Sukarnoputri",
+      "exclusive": 0,
+      "near": 140842,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 20,
+      "n_val": 13
+    },
+    {
+      "id": 100,
+      "name": "Meryl_Streep",
+      "exclusive": 0,
+      "near": 111660,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 101,
+      "name": "Michael_Bloomberg",
+      "exclusive": 0,
+      "near": 125853,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 12,
+      "n_val": 8
+    },
+    {
+      "id": 102,
+      "name": "Michael_Jackson",
+      "exclusive": 0,
+      "near": 157091,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 103,
+      "name": "Michael_Schumacher",
+      "exclusive": 0,
+      "near": 145688,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 7
+    },
+    {
+      "id": 104,
+      "name": "Mike_Weir",
+      "exclusive": 0,
+      "near": 128294,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 105,
+      "name": "Mohammad_Khatami",
+      "exclusive": 0,
+      "near": 136387,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 106,
+      "name": "Mohammed_Al-Douri",
+      "exclusive": 0,
+      "near": 129156,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 107,
+      "name": "Muhammad_Ali",
+      "exclusive": 0,
+      "near": 160804,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 108,
+      "name": "Nancy_Pelosi",
+      "exclusive": 0,
+      "near": 112035,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 109,
+      "name": "Naomi_Watts",
+      "exclusive": 0,
+      "near": 125620,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 9
+    },
+    {
+      "id": 110,
+      "name": "Nestor_Kirchner",
+      "exclusive": 0,
+      "near": 131547,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 22,
+      "n_val": 15
+    },
+    {
+      "id": 111,
+      "name": "Nicanor_Duarte_Frutos",
+      "exclusive": 0,
+      "near": 144731,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 112,
+      "name": "Nicole_Kidman",
+      "exclusive": 0,
+      "near": 142365,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 8
+    },
+    {
+      "id": 113,
+      "name": "Norah_Jones",
+      "exclusive": 0,
+      "near": 134116,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 114,
+      "name": "Paradorn_Srichaphan",
+      "exclusive": 0,
+      "near": 151284,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 115,
+      "name": "Paul_Bremer",
+      "exclusive": 0,
+      "near": 141634,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 12,
+      "n_val": 8
+    },
+    {
+      "id": 116,
+      "name": "Paul_Burrell",
+      "exclusive": 0,
+      "near": 146626,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 117,
+      "name": "Paul_Wolfowitz",
+      "exclusive": 0,
+      "near": 155704,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 118,
+      "name": "Pervez_Musharraf",
+      "exclusive": 0,
+      "near": 126573,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 7
+    },
+    {
+      "id": 119,
+      "name": "Pete_Sampras",
+      "exclusive": 0,
+      "near": 126532,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 13,
+      "n_val": 9
+    },
+    {
+      "id": 120,
+      "name": "Pierce_Brosnan",
+      "exclusive": 0,
+      "near": 101035,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 121,
+      "name": "Queen_Elizabeth_II",
+      "exclusive": 0,
+      "near": 113779,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 122,
+      "name": "Recep_Tayyip_Erdogan",
+      "exclusive": 0,
+      "near": 114407,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 18,
+      "n_val": 12
+    },
+    {
+      "id": 123,
+      "name": "Renee_Zellweger",
+      "exclusive": 0,
+      "near": 159240,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 124,
+      "name": "Ricardo_Lagos",
+      "exclusive": 0,
+      "near": 142600,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 16,
+      "n_val": 11
+    },
+    {
+      "id": 125,
+      "name": "Richard_Gephardt",
+      "exclusive": 0,
+      "near": 137275,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 126,
+      "name": "Richard_Myers",
+      "exclusive": 0,
+      "near": 149339,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 7
+    },
+    {
+      "id": 127,
+      "name": "Roger_Federer",
+      "exclusive": 0,
+      "near": 125016,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    },
+    {
+      "id": 128,
+      "name": "Roh_Moo-hyun",
+      "exclusive": 0,
+      "near": 128332,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 19,
+      "n_val": 13
+    },
+    {
+      "id": 129,
+      "name": "Rubens_Barrichello",
+      "exclusive": 0,
+      "near": 136284,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 5
+    },
+    {
+      "id": 130,
+      "name": "Rudolph_Giuliani",
+      "exclusive": 0,
+      "near": 132520,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 16,
+      "n_val": 10
+    },
+    {
+      "id": 131,
+      "name": "Saddam_Hussein",
+      "exclusive": 0,
+      "near": 103228,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 14,
+      "n_val": 9
+    },
+    {
+      "id": 132,
+      "name": "Salma_Hayek",
+      "exclusive": 0,
+      "near": 134556,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 133,
+      "name": "Serena_Williams",
+      "exclusive": 0,
+      "near": 121650,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 28,
+      "n_val": 19
+    },
+    {
+      "id": 134,
+      "name": "Sergey_Lavrov",
+      "exclusive": 0,
+      "near": 154535,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 135,
+      "name": "Sergio_Vieira_De_Mello",
+      "exclusive": 0,
+      "near": 139899,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 136,
+      "name": "Silvio_Berlusconi",
+      "exclusive": 0,
+      "near": 99124,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 19,
+      "n_val": 13
+    },
+    {
+      "id": 137,
+      "name": "Spencer_Abraham",
+      "exclusive": 0,
+      "near": 137710,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 138,
+      "name": "Taha_Yassin_Ramadan",
+      "exclusive": 0,
+      "near": 119868,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 9,
+      "n_val": 6
+    },
+    {
+      "id": 139,
+      "name": "Tang_Jiaxuan",
+      "exclusive": 0,
+      "near": 147732,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 7,
+      "n_val": 4
+    },
+    {
+      "id": 140,
+      "name": "Tiger_Woods",
+      "exclusive": 0,
+      "near": 125151,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 14,
+      "n_val": 9
+    },
+    {
+      "id": 141,
+      "name": "Tim_Henman",
+      "exclusive": 0,
+      "near": 141756,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 11,
+      "n_val": 8
+    },
+    {
+      "id": 142,
+      "name": "Tom_Cruise",
+      "exclusive": 0,
+      "near": 156043,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 143,
+      "name": "Tom_Daschle",
+      "exclusive": 0,
+      "near": 138218,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 15,
+      "n_val": 10
+    },
+    {
+      "id": 144,
+      "name": "Tom_Hanks",
+      "exclusive": 0,
+      "near": 145146,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 145,
+      "name": "Tom_Ridge",
+      "exclusive": 0,
+      "near": 131276,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 20,
+      "n_val": 13
+    },
+    {
+      "id": 146,
+      "name": "Tommy_Franks",
+      "exclusive": 0,
+      "near": 142972,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 6
+    },
+    {
+      "id": 147,
+      "name": "Tommy_Thompson",
+      "exclusive": 0,
+      "near": 143033,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 148,
+      "name": "Tony_Blair",
+      "exclusive": 0,
+      "near": 127848,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 86,
+      "n_val": 58
+    },
+    {
+      "id": 149,
+      "name": "Trent_Lott",
+      "exclusive": 0,
+      "near": 143034,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 6
+    },
+    {
+      "id": 150,
+      "name": "Venus_Williams",
+      "exclusive": 0,
+      "near": 138590,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 10,
+      "n_val": 7
+    },
+    {
+      "id": 151,
+      "name": "Vicente_Fox",
+      "exclusive": 0,
+      "near": 113173,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 19,
+      "n_val": 12
+    },
+    {
+      "id": 152,
+      "name": "Vladimir_Putin",
+      "exclusive": 0,
+      "near": 130335,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 29,
+      "n_val": 20
+    },
+    {
+      "id": 153,
+      "name": "Walter_Mondale",
+      "exclusive": 0,
+      "near": 146091,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 6,
+      "n_val": 4
+    },
+    {
+      "id": 154,
+      "name": "Wen_Jiabao",
+      "exclusive": 0,
+      "near": 136153,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 5
+    },
+    {
+      "id": 155,
+      "name": "Winona_Ryder",
+      "exclusive": 0,
+      "near": 131793,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 14,
+      "n_val": 10
+    },
+    {
+      "id": 156,
+      "name": "Yoriko_Kawaguchi",
+      "exclusive": 0,
+      "near": 114374,
+      "exclusive_val_A_rate": 0.0,
+      "exclusive_val_other_rate": 0.0,
+      "n_disc": 8,
+      "n_val": 6
+    }
+  ]
+}
