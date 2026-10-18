@@ -1,0 +1,21 @@
+{
+  "identities": 10,
+  "sequences_per_identity": 3,
+  "frames_per_sequence": 8,
+  "frame_consecutive_cos": 4.0534074765803807e-05,
+  "state_consecutive_cos": 0.7042668666158404,
+  "same_state_cos": 0.6851119826237361,
+  "different_state_cos": 0.5340706951088375,
+  "same_state_ratio": 0.15104128751489854,
+  "same_frame_cos": 4.044553447673638e-05,
+  "different_frame_cos": 4.163294968420641e-05,
+  "same_frame_ratio": -1.18741520747003e-06,
+  "within_state_cos_at_switch": 0.7397869123352898,
+  "switch_state_cos": 0.5643861757384406,
+  "switch_drop": 0.17540073659684918,
+  "gap_recovery_same_cos": 0.7141740322113037,
+  "gap_recovery_different_cos": 0.5447170380089018,
+  "gap_recovery_difference": 0.1694569942024019,
+  "null_same_diff": 0.011770990159776451,
+  "alpha": 0.8
+}
