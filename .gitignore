@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# datasets and cached arrays are not redistributed
+data/
+*.npz
+*.npy
+*.tgz
+*.tar.gz
+*.zip
+
+# trained or fixed-weight checkpoints
+models/
+*.pt
+*.pth
+
+# temporary outputs
+results/_*
+*.log
+.DS_Store
