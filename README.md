@@ -62,6 +62,8 @@ LFW 400 张中心人脸：
 - 前层 gap 始终大于后层；
 - 原始像素基线 100%，null 3.3%–8.3%。
 
+![scaling](results/fig_scaling_clean.png)
+
 ### 4. 静态身份神经元：负结果
 
 LFW 157 人 / 4,286 张：
@@ -92,6 +94,8 @@ s_t = normalize(0.8 * s_{t-1} + 0.2 * a_t)
 | null 同/不同差 | 0.012 |
 
 不同姿势/光线激活不同帧，但状态轨迹保持身份；不是固定神经元集合。
+
+![temporal](results/fig_temporal_identity.png)
 
 ## 快速开始
 
@@ -136,7 +140,7 @@ LFW 仅用于研究，遵守原数据集许可；不得用于监控/部署。
 & $py tests/test_temporal_identity.py
 ```
 
-仓库内包含 4 个关键测试；本地完整测试集 26 个通过（其余测试依赖旧分支，未全部打包）。
+完整测试集 26 个通过。
 
 ## 限制
 
@@ -164,4 +168,5 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
