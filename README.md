@@ -31,7 +31,9 @@
 | 连续身份 | `temporal_identity.py` | `TEMPORAL_IDENTITY.md` | 单帧不同，状态轨迹保持身份 |
 | 圆形 foveated | `foveated.py` | `FOVEATED.md` | 几何不变，仅中心清晰 |
 | 分辨率变化 | `resolution_test.py` | `RESOLUTION.md` | 48–256 都能认出 |
-| 1960×1080 tiled | `tiled_1960.py` | `TILED_1960.md` | patch/tile 100% |
+| 1960×1080 tiled | `tiled_1960.py` | `TILED_1960.md` | patch/tile 100%（非精确等价） |
+| 精确 tiled 等价 | `tiled_exact.py` | `TILED_EXACT.md` | halo + 全局 top-k，bit-identical |
+| 种子/层/读出 | `seed_eval.py`, `layer_eval.py` | `EVALUATION.md` | 种子波动不大，top-5 明显更高 |
 | Hebbian attractor | `recurrent_attractor.py` | `RECURRENT_ATTRACTOR.md` | 弱于 EMA，负结果 |
 | 人脸中心 foveated | `lfw_face_foveated.py` | `LFW_FACE_FOVEATED.md` | 4.52%，仍很低 |
 | LFW 静态身份 | `lfw_rigorous.py` | `LFW_RIGOROUS.md` | 固定身份神经元负结果 |
@@ -227,10 +229,11 @@ LFW 仅用于研究，遵守原数据集许可；不得用于监控/部署。
 & $py tests/test_foveated.py
 & $py tests/test_resolution.py
 & $py tests/test_tiled.py
+& $py tests/test_tiled_exact.py
 & $py tests/test_lfw_face_foveated.py
 ```
 
-仓库内包含 8 个关键测试；本地完整测试集 30 个通过（其余测试依赖旧分支，未全部打包）。
+仓库内包含 9 个关键测试；本地完整测试集 31 个通过（其余测试依赖旧分支，未全部打包）。
 
 ## 限制
 
@@ -255,7 +258,9 @@ TEMPORAL_IDENTITY.md 连续观察身份
 LFW_FACE_FOVEATED.md LFW 人脸中心 foveated
 FOVEATED.md         圆形中央高分辨率输入
 RESOLUTION.md       固定模型、改变分辨率
-TILED_1960.md       1960×1080 tiled streaming
+TILED_1960.md       1960×1080 tiled streaming（非精确等价）
+TILED_EXACT.md      精确 tiled = 单体全图
+EVALUATION.md       种子/层/读出/评判方式
 RECURRENT_ATTRACTOR.md Hebbian recurrent attractor
 LFW_RIGOROUS.md     LFW 静态身份负结果
 LFW_SIMILARITY.md   LFW 画面相似性
@@ -264,6 +269,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
