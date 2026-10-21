@@ -1,0 +1,11 @@
+{
+  "classes": 50,
+  "hidden": 1000,
+  "topk": 200,
+  "rows": {
+    "baseline": 0.08,
+    "prune_only": 0.084,
+    "split_only": 0.08,
+    "split_prune": 0.108
+  }
+}
