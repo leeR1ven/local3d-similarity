@@ -49,6 +49,7 @@
 | 已可分画面的 margin | `structural_tune.py`, `structural_binary.py` | `STRUCTURAL_MARGIN.md` | accuracy 饱和时 gap 可增大 |
 | 中间层分裂 | `structural_midlayer.py` | `STRUCTURAL_MIDLAYER.md` | 单次 8.0%→10.8%，未复现 |
 | 中间层验证搜索 | `structural_midlayer_search.py` | `STRUCTURAL_MIDLAYER_SEARCH.md` | 验证 12%，测试 8.8%，未超 baseline |
+| 近阈值受控任务 | `structural_gate.py` | `STRUCTURAL_GATE.md` | baseline 84%，结构变体全一样 |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -296,12 +297,14 @@ STRUCTURAL_FIXED_K.md 固定 top-k 的分裂修正
 STRUCTURAL_MARGIN.md 已能分清时看 margin
 STRUCTURAL_MIDLAYER.md 中间层平分输入/输出
 STRUCTURAL_MIDLAYER_SEARCH.md 中间层验证集搜索
+STRUCTURAL_GATE.md   近阈值任务：结构改变无效
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
