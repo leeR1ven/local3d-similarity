@@ -1,0 +1,58 @@
+{
+  "baseline": {
+    "metrics": {
+      "overall": 0.84,
+      "frequent": 0.88,
+      "rare": 0.8
+    },
+    "n": 5000
+  },
+  "split_high_half": {
+    "metrics": {
+      "overall": 0.65,
+      "frequent": 0.88,
+      "rare": 0.42
+    },
+    "n": 5400
+  },
+  "split_high_full": {
+    "metrics": {
+      "overall": 0.82,
+      "frequent": 0.9,
+      "rare": 0.74
+    },
+    "n": 5400
+  },
+  "split_high_full_noise": {
+    "metrics": {
+      "overall": 0.79,
+      "frequent": 0.9,
+      "rare": 0.68
+    },
+    "n": 5400
+  },
+  "split_mid_half": {
+    "metrics": {
+      "overall": 0.87,
+      "frequent": 0.94,
+      "rare": 0.8
+    },
+    "n": 5500
+  },
+  "split_mid_full": {
+    "metrics": {
+      "overall": 0.84,
+      "frequent": 0.9,
+      "rare": 0.78
+    },
+    "n": 5500
+  },
+  "add_child_high": {
+    "metrics": {
+      "overall": 0.84,
+      "frequent": 0.92,
+      "rare": 0.76
+    },
+    "n": 5200
+  }
+}
