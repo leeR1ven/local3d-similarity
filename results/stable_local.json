@@ -1,0 +1,31 @@
+{
+  "capacity_slots": 6000,
+  "initial_alive": 5000,
+  "topk": 1000,
+  "rows": {
+    "baseline": {
+      "metrics": {
+        "overall": 0.5,
+        "frequent": 0.54,
+        "rare": 0.46
+      },
+      "alive": 5000
+    },
+    "delete_10_stable": {
+      "metrics": {
+        "overall": 0.47,
+        "frequent": 0.5,
+        "rare": 0.44
+      },
+      "alive": 4676
+    },
+    "delete_add_stable": {
+      "metrics": {
+        "overall": 0.53,
+        "frequent": 0.62,
+        "rare": 0.44
+      },
+      "alive": 4926
+    }
+  }
+}
