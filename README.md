@@ -56,6 +56,7 @@
 | 可逆上下文 | `reversible_context.py` | `REVERSIBLE_CONTEXT.md` | A→B→A 可恢复，但无增益 |
 | 长尾删除/增加神经元 | `structural_longtail.py` | `STRUCTURAL_LONGTAIL.md` | 删除10% 84→85% |
 | 增加神经元方式 | `structural_split_variants.py` | `NEURON_EXPANSION.md` | 中间频率+2+2：84→87%，常见 88→94% |
+| 增加神经元参数搜索 | `neuron_expansion_search.py` | `NEURON_EXPANSION_SEARCH.md` | 5%+中间+2+2+k1200：84→92%，常见 96%，稀有 88% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -310,12 +311,14 @@ STRUCTURAL_CAPACITY.md 容量受限时分裂可能有帮助
 REVERSIBLE_CONTEXT.md A→B→A 可逆经验
 STRUCTURAL_LONGTAIL.md 长尾：删除用于压缩
 NEURON_EXPANSION.md 增加神经元的不同方式
+NEURON_EXPANSION_SEARCH.md 增加神经元的参数搜索
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
