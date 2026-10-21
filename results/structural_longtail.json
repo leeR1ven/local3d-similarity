@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "metrics": {
+      "overall": 0.84,
+      "frequent": 0.88,
+      "rare": 0.8,
+      "freq_gap": -18.56600000000001,
+      "rare_gap": -10.469999999999997
+    },
+    "n": 5000
+  },
+  "prune_10": {
+    "metrics": {
+      "overall": 0.85,
+      "frequent": 0.9,
+      "rare": 0.8,
+      "freq_gap": -18.555999999999997,
+      "rare_gap": -10.154000000000002
+    },
+    "n": 4500
+  },
+  "split_high_10": {
+    "metrics": {
+      "overall": 0.4,
+      "frequent": 0.44,
+      "rare": 0.36,
+      "freq_gap": 5.4660000000000055,
+      "rare_gap": 9.450000000000006
+    },
+    "n": 6000
+  },
+  "split_prune": {
+    "metrics": {
+      "overall": 0.85,
+      "frequent": 0.9,
+      "rare": 0.8,
+      "freq_gap": -18.511999999999997,
+      "rare_gap": -10.286
+    },
+    "n": 5000
+  }
+}
