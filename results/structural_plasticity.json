@@ -1,0 +1,13 @@
+{
+  "population": 20000,
+  "topk": 2000,
+  "patterns": 20,
+  "before_acc": 1.0,
+  "before_gap": 237.94800000000004,
+  "after_acc": 0.99,
+  "after_gap": 203.16400000000002,
+  "low_pruned": 2000,
+  "high_split": 2000,
+  "usage_before_mean": 10.0,
+  "usage_after_mean": 10.0
+}
