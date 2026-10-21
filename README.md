@@ -44,6 +44,7 @@
 | 严格专属神经元 | `exclusive_neurons.py` | `EXCLUSIVE_NEURONS.md` | 157 人全部 0 个 |
 | 结构可塑性 | `structural_plasticity.py` | `STRUCTURAL_PLASTICITY.md` | 删少用/分裂常用；100%→99% |
 | 难任务结构可塑性 | `structural_hard2.py` | `STRUCTURAL_HARD.md` | 50 类 96%→64.8% |
+| 极难任务 + 机制拆分 | `structural_ablation.py`, `structural_veryhard.py` | `STRUCTURAL_VERYHARD.md` | 12×12 难任务：baseline 11.2%，分裂 9.6%，删除+分裂 7.6% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -286,12 +287,14 @@ LFW_RIGOROUS.md     LFW 静态身份负结果
 EXCLUSIVE_NEURONS.md 严格“只在 A 激活”测试
 STRUCTURAL_PLASTICITY.md 少用删除/常用分裂
 STRUCTURAL_HARD.md   50 类细粒度任务：96%→64.8%
+STRUCTURAL_VERYHARD.md 删除/分裂拆开：极难任务
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
