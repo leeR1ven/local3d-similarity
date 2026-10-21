@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "overall": 0.93,
+    "frequent": 0.96,
+    "rare": 0.92
+  },
+  "expanded": {
+    "overall": 0.91,
+    "frequent": 1.0,
+    "rare": 0.88
+  },
+  "n_base": 5000,
+  "n_exp": 5500
+}
