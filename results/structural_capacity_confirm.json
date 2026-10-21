@@ -1,0 +1,14 @@
+{
+  "0": {
+    "baseline": 0.84,
+    "split_mid": 0.8
+  },
+  "1": {
+    "baseline": 0.6,
+    "split_mid": 0.75
+  },
+  "2": {
+    "baseline": 0.52,
+    "split_mid": 0.795
+  }
+}
