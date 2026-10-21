@@ -52,6 +52,7 @@
 | 近阈值受控任务 | `structural_gate.py` | `STRUCTURAL_GATE.md` | baseline 84%，结构变体全一样 |
 | 结构可塑性总判断 | 多个 | `STRUCTURAL_VERDICT.md` | 当前最优是不删除/不分裂 |
 | 随机模型通用区分 | `random_capacity.py` | `RANDOM_CAPACITY.md` | 同底图/不同底图距离比 0.0055，0 碰撞 |
+| 容量受限结构可塑性 | `structural_capacity.py`, `structural_capacity_confirm.py` | `STRUCTURAL_CAPACITY.md` | 5k 子集：52–60%→75–79.5% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -302,12 +303,14 @@ STRUCTURAL_MIDLAYER_SEARCH.md 中间层验证集搜索
 STRUCTURAL_GATE.md   近阈值任务：结构改变无效
 STRUCTURAL_VERDICT.md 当前最优：baseline
 RANDOM_CAPACITY.md  随机模型本来就能区分
+STRUCTURAL_CAPACITY.md 容量受限时分裂可能有帮助
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
