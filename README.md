@@ -60,6 +60,7 @@
 | 增加神经元缩放规律 | `expansion_scaling.py`, `expansion_validate.py` | `EXPANSION_SCALING.md` | N≥5k、5%中间、k30%：常见↑，稀有↓ |
 | 听觉叠加声源 | `audio_scene.py` | `AUDIO_SCENE.md` | clean 45.5%，raw 48%；噪声下更差 |
 | 稳定 ID 局部结构 | `stable_local.py` | `STABLE_LOCAL.md` | 删除10% 50→47%，加5%回53/常见62 |
+| 稳定 ID 3D 层 | `stable_3d.py` | `STABLE_3D.md` | L2–L5 删除/增加，99–100%（任务饱和） |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -318,12 +319,14 @@ NEURON_EXPANSION_SEARCH.md 增加神经元的参数搜索
 EXPANSION_SCALING.md 容量门槛/新增比例规律
 AUDIO_SCENE.md      听觉：频率×时间，叠加声源
 STABLE_LOCAL.md     稳定 ID + alive mask
+STABLE_3D.md        真正 3D 层的稳定 ID 删除/增加
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
