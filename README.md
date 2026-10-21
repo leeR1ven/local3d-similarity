@@ -42,6 +42,7 @@
 | 学习式 pair 读出 | `face_pair_readout.py` | `FACE_PAIR_READOUT.md` | AUC .600，BA .584 |
 | LFW 静态身份 | `lfw_rigorous.py` | `LFW_RIGOROUS.md` | 固定身份神经元负结果 |
 | 严格专属神经元 | `exclusive_neurons.py` | `EXCLUSIVE_NEURONS.md` | 157 人全部 0 个 |
+| 结构可塑性 | `structural_plasticity.py` | `STRUCTURAL_PLASTICITY.md` | 删少用/分裂常用；100%→99% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -282,12 +283,14 @@ EVALUATION.md       种子/层/读出/评判方式
 RECURRENT_ATTRACTOR.md Hebbian recurrent attractor
 LFW_RIGOROUS.md     LFW 静态身份负结果
 EXCLUSIVE_NEURONS.md 严格“只在 A 激活”测试
+STRUCTURAL_PLASTICITY.md 少用删除/常用分裂
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
