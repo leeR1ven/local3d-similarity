@@ -12,6 +12,19 @@
 > 这是研究原型，不是人脸识别/AGI 产品。  
 > 1960×1080 只做了 tiled streaming 局部 patch，不是单体全图网络。
 
+## 两种容量情况（重要）
+
+| 情况 | 现象 | 增加神经元的作用 |
+|---|---|---|
+| 小模型 / 容量不足 | 画面可分，但 top-1 低 | 可能从“不可分”变“可分” |
+| 大模型 / 容量足够 | top-1≈100%，AUC≈1 | 不提高 top-1，只增大 margin |
+
+- 容量不足：N=1,000–2,000 接近随机或很低，N≈5,000 才明显可用；
+- 容量足够：L5 增加 10%，最小不同画面距离稳定 +约 10%，top-1 不变；
+- 删除用于压缩，增加用于扩容或增大 margin。
+
+详见 [`CAPACITY_REGIMES.md`](CAPACITY_REGIMES.md)。
+
 ## 核心结构
 
 每个神经元是三维体积 `H×W×Z` 中的一个点：
@@ -65,6 +78,7 @@
 | 画面区分 margin | `discrimination_margin.py`, `margin_search.py` | `MARGIN_SEARCH.md` | L5+10%：最小不同距离 1882→2064 |
 | margin 多 seed | `margin_validate.py` | `MARGIN_VALIDATE.md` | L5+10% 三 seed 均 +9.6–10.4% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
+| 容量两种 regime | — | `CAPACITY_REGIMES.md` | 小模型扩容；大模型只增 margin |
 
 ## 主要结果
 
@@ -324,6 +338,7 @@ AUDIO_SCENE.md      听觉：频率×时间，叠加声源
 STABLE_LOCAL.md     稳定 ID + alive mask
 STABLE_3D.md        真正 3D 层的稳定 ID 删除/增加
 STABLE_3D_HARD.md   96×96 稳定 ID 3D 层（饱和）
+CAPACITY_REGIMES.md 小模型 vs 大模型：两种目标
 MARGIN_SEARCH.md     增加神经元后 margin 是否变强
 MARGIN_VALIDATE.md   三 seed 的 margin 验证
 LFW_SIMILARITY.md   LFW 画面相似性
@@ -332,6 +347,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
