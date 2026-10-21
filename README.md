@@ -58,6 +58,7 @@
 | 增加神经元方式 | `structural_split_variants.py` | `NEURON_EXPANSION.md` | 中间频率+2+2：84→87%，常见 88→94% |
 | 增加神经元参数搜索 | `neuron_expansion_search.py` | `NEURON_EXPANSION_SEARCH.md` | 5%+中间+2+2+k1200：84→92%，常见 96%，稀有 88% |
 | 增加神经元缩放规律 | `expansion_scaling.py`, `expansion_validate.py` | `EXPANSION_SCALING.md` | N≥5k、5%中间、k30%：常见↑，稀有↓ |
+| 听觉叠加声源 | `audio_scene.py` | `AUDIO_SCENE.md` | clean 45.5%，raw 48%；噪声下更差 |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -314,12 +315,14 @@ STRUCTURAL_LONGTAIL.md 长尾：删除用于压缩
 NEURON_EXPANSION.md 增加神经元的不同方式
 NEURON_EXPANSION_SEARCH.md 增加神经元的参数搜索
 EXPANSION_SCALING.md 容量门槛/新增比例规律
+AUDIO_SCENE.md      听觉：频率×时间，叠加声源
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
