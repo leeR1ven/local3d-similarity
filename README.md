@@ -62,6 +62,7 @@
 | 稳定 ID 局部结构 | `stable_local.py` | `STABLE_LOCAL.md` | 删除10% 50→47%，加5%回53/常见62 |
 | 稳定 ID 3D 层 | `stable_3d.py` | `STABLE_3D.md` | L2–L5 删除/增加，99–100%（任务饱和） |
 | 96×96 稳定 3D | `stable_3d_hard.py` | `STABLE_3D_HARD.md` | 100% 饱和，alive 正确 |
+| 画面区分 margin | `discrimination_margin.py`, `margin_search.py` | `MARGIN_SEARCH.md` | L5+10%：最小不同距离 1882→2064 |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -322,12 +323,14 @@ AUDIO_SCENE.md      听觉：频率×时间，叠加声源
 STABLE_LOCAL.md     稳定 ID + alive mask
 STABLE_3D.md        真正 3D 层的稳定 ID 删除/增加
 STABLE_3D_HARD.md   96×96 稳定 ID 3D 层（饱和）
+MARGIN_SEARCH.md     增加神经元后 margin 是否变强
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
