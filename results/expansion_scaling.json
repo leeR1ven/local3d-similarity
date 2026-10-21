@@ -1,0 +1,328 @@
+{
+  "rows": {
+    "N1000_add0.0_k0.15": {
+      "cap": 1000,
+      "add": 0.0,
+      "k_ratio": 0.15,
+      "n": 1000,
+      "k": 150,
+      "metrics": {
+        "overall": 0.05,
+        "frequent": 0.02,
+        "rare": 0.08
+      }
+    },
+    "N1000_add0.0_k0.24": {
+      "cap": 1000,
+      "add": 0.0,
+      "k_ratio": 0.24,
+      "n": 1000,
+      "k": 240,
+      "metrics": {
+        "overall": 0.05,
+        "frequent": 0.0,
+        "rare": 0.1
+      }
+    },
+    "N1000_add0.0_k0.3": {
+      "cap": 1000,
+      "add": 0.0,
+      "k_ratio": 0.3,
+      "n": 1000,
+      "k": 300,
+      "metrics": {
+        "overall": 0.04,
+        "frequent": 0.0,
+        "rare": 0.08
+      }
+    },
+    "N1000_add0.05_k0.15": {
+      "cap": 1000,
+      "add": 0.05,
+      "k_ratio": 0.15,
+      "n": 1100,
+      "k": 165,
+      "metrics": {
+        "overall": 0.05,
+        "frequent": 0.02,
+        "rare": 0.08
+      }
+    },
+    "N1000_add0.05_k0.24": {
+      "cap": 1000,
+      "add": 0.05,
+      "k_ratio": 0.24,
+      "n": 1100,
+      "k": 264,
+      "metrics": {
+        "overall": 0.05,
+        "frequent": 0.02,
+        "rare": 0.08
+      }
+    },
+    "N1000_add0.05_k0.3": {
+      "cap": 1000,
+      "add": 0.05,
+      "k_ratio": 0.3,
+      "n": 1100,
+      "k": 330,
+      "metrics": {
+        "overall": 0.06,
+        "frequent": 0.0,
+        "rare": 0.12
+      }
+    },
+    "N1000_add0.1_k0.15": {
+      "cap": 1000,
+      "add": 0.1,
+      "k_ratio": 0.15,
+      "n": 1200,
+      "k": 180,
+      "metrics": {
+        "overall": 0.06,
+        "frequent": 0.02,
+        "rare": 0.1
+      }
+    },
+    "N1000_add0.1_k0.24": {
+      "cap": 1000,
+      "add": 0.1,
+      "k_ratio": 0.24,
+      "n": 1200,
+      "k": 288,
+      "metrics": {
+        "overall": 0.04,
+        "frequent": 0.0,
+        "rare": 0.08
+      }
+    },
+    "N1000_add0.1_k0.3": {
+      "cap": 1000,
+      "add": 0.1,
+      "k_ratio": 0.3,
+      "n": 1200,
+      "k": 360,
+      "metrics": {
+        "overall": 0.04,
+        "frequent": 0.0,
+        "rare": 0.08
+      }
+    },
+    "N2000_add0.0_k0.15": {
+      "cap": 2000,
+      "add": 0.0,
+      "k_ratio": 0.15,
+      "n": 2000,
+      "k": 300,
+      "metrics": {
+        "overall": 0.22,
+        "frequent": 0.24,
+        "rare": 0.2
+      }
+    },
+    "N2000_add0.0_k0.24": {
+      "cap": 2000,
+      "add": 0.0,
+      "k_ratio": 0.24,
+      "n": 2000,
+      "k": 480,
+      "metrics": {
+        "overall": 0.28,
+        "frequent": 0.26,
+        "rare": 0.3
+      }
+    },
+    "N2000_add0.0_k0.3": {
+      "cap": 2000,
+      "add": 0.0,
+      "k_ratio": 0.3,
+      "n": 2000,
+      "k": 600,
+      "metrics": {
+        "overall": 0.37,
+        "frequent": 0.28,
+        "rare": 0.46
+      }
+    },
+    "N2000_add0.05_k0.15": {
+      "cap": 2000,
+      "add": 0.05,
+      "k_ratio": 0.15,
+      "n": 2200,
+      "k": 330,
+      "metrics": {
+        "overall": 0.19,
+        "frequent": 0.2,
+        "rare": 0.18
+      }
+    },
+    "N2000_add0.05_k0.24": {
+      "cap": 2000,
+      "add": 0.05,
+      "k_ratio": 0.24,
+      "n": 2200,
+      "k": 528,
+      "metrics": {
+        "overall": 0.32,
+        "frequent": 0.34,
+        "rare": 0.3
+      }
+    },
+    "N2000_add0.05_k0.3": {
+      "cap": 2000,
+      "add": 0.05,
+      "k_ratio": 0.3,
+      "n": 2200,
+      "k": 660,
+      "metrics": {
+        "overall": 0.36,
+        "frequent": 0.32,
+        "rare": 0.4
+      }
+    },
+    "N2000_add0.1_k0.15": {
+      "cap": 2000,
+      "add": 0.1,
+      "k_ratio": 0.15,
+      "n": 2400,
+      "k": 360,
+      "metrics": {
+        "overall": 0.2,
+        "frequent": 0.18,
+        "rare": 0.22
+      }
+    },
+    "N2000_add0.1_k0.24": {
+      "cap": 2000,
+      "add": 0.1,
+      "k_ratio": 0.24,
+      "n": 2400,
+      "k": 576,
+      "metrics": {
+        "overall": 0.34,
+        "frequent": 0.32,
+        "rare": 0.36
+      }
+    },
+    "N2000_add0.1_k0.3": {
+      "cap": 2000,
+      "add": 0.1,
+      "k_ratio": 0.3,
+      "n": 2400,
+      "k": 720,
+      "metrics": {
+        "overall": 0.35,
+        "frequent": 0.24,
+        "rare": 0.46
+      }
+    },
+    "N5000_add0.0_k0.15": {
+      "cap": 5000,
+      "add": 0.0,
+      "k_ratio": 0.15,
+      "n": 5000,
+      "k": 750,
+      "metrics": {
+        "overall": 0.61,
+        "frequent": 0.76,
+        "rare": 0.46
+      }
+    },
+    "N5000_add0.0_k0.24": {
+      "cap": 5000,
+      "add": 0.0,
+      "k_ratio": 0.24,
+      "n": 5000,
+      "k": 1200,
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      }
+    },
+    "N5000_add0.0_k0.3": {
+      "cap": 5000,
+      "add": 0.0,
+      "k_ratio": 0.3,
+      "n": 5000,
+      "k": 1500,
+      "metrics": {
+        "overall": 0.92,
+        "frequent": 0.96,
+        "rare": 0.88
+      }
+    },
+    "N5000_add0.05_k0.15": {
+      "cap": 5000,
+      "add": 0.05,
+      "k_ratio": 0.15,
+      "n": 5500,
+      "k": 825,
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.82,
+        "rare": 0.66
+      }
+    },
+    "N5000_add0.05_k0.24": {
+      "cap": 5000,
+      "add": 0.05,
+      "k_ratio": 0.24,
+      "n": 5500,
+      "k": 1320,
+      "metrics": {
+        "overall": 0.87,
+        "frequent": 0.94,
+        "rare": 0.8
+      }
+    },
+    "N5000_add0.05_k0.3": {
+      "cap": 5000,
+      "add": 0.05,
+      "k_ratio": 0.3,
+      "n": 5500,
+      "k": 1650,
+      "metrics": {
+        "overall": 0.93,
+        "frequent": 0.96,
+        "rare": 0.9
+      }
+    },
+    "N5000_add0.1_k0.15": {
+      "cap": 5000,
+      "add": 0.1,
+      "k_ratio": 0.15,
+      "n": 6000,
+      "k": 900,
+      "metrics": {
+        "overall": 0.81,
+        "frequent": 0.88,
+        "rare": 0.74
+      }
+    },
+    "N5000_add0.1_k0.24": {
+      "cap": 5000,
+      "add": 0.1,
+      "k_ratio": 0.24,
+      "n": 6000,
+      "k": 1440,
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.92,
+        "rare": 0.88
+      }
+    },
+    "N5000_add0.1_k0.3": {
+      "cap": 5000,
+      "add": 0.1,
+      "k_ratio": 0.3,
+      "n": 6000,
+      "k": 1800,
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      }
+    }
+  }
+}
