@@ -1,0 +1,9 @@
+{
+  "classes": 50,
+  "population": 20000,
+  "patch": 24,
+  "before_acc": 0.96,
+  "before_gap": 33.15359999999998,
+  "after_acc": 0.648,
+  "after_gap": 9.359999999999966
+}
