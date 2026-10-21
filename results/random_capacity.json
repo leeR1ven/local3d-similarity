@@ -1,0 +1,10 @@
+{
+  "images": 200,
+  "pairs": 100,
+  "different_base_exact_collisions": 0,
+  "same_base_distance": 17.9,
+  "different_base_distance": 3230.299898989899,
+  "same_diff_ratio": 0.005541281168846662,
+  "min_different_base_hamming": 3045.0,
+  "pixel_vs_activation_spearman": 0.1724683554496454
+}
