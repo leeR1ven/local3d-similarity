@@ -1,0 +1,25 @@
+{
+  "baseline_A_B": [
+    0.37,
+    0.33
+  ],
+  "masks_size": [
+    2500,
+    2500
+  ],
+  "sequence": [
+    {
+      "context": "A",
+      "acc": 0.37
+    },
+    {
+      "context": "B",
+      "acc": 0.33
+    },
+    {
+      "context": "A again",
+      "acc": 0.37
+    }
+  ],
+  "mask_overlap_A_B": 2448
+}
