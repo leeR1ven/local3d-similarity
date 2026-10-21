@@ -1,0 +1,589 @@
+{
+  "best": "add0.05_0.4-0.6_half_k1200",
+  "rows": {
+    "baseline": {
+      "metrics": {
+        "overall": 0.84,
+        "frequent": 0.88,
+        "rare": 0.8
+      },
+      "n": 5000
+    },
+    "add0.05_0.4-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.7,
+        "frequent": 0.76,
+        "rare": 0.64
+      },
+      "n": 5500
+    },
+    "add0.05_0.4-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.85,
+        "frequent": 0.9,
+        "rare": 0.8
+      },
+      "n": 5500
+    },
+    "add0.05_0.4-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.92,
+        "frequent": 0.96,
+        "rare": 0.88
+      },
+      "n": 5500
+    },
+    "add0.05_0.4-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 5500
+    },
+    "add0.05_0.4-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.85,
+        "frequent": 0.92,
+        "rare": 0.78
+      },
+      "n": 5500
+    },
+    "add0.05_0.4-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.92,
+        "frequent": 0.96,
+        "rare": 0.88
+      },
+      "n": 5500
+    },
+    "add0.05_0.45-0.55_half_k800": {
+      "metrics": {
+        "overall": 0.7,
+        "frequent": 0.76,
+        "rare": 0.64
+      },
+      "n": 5500
+    },
+    "add0.05_0.45-0.55_half_k1000": {
+      "metrics": {
+        "overall": 0.87,
+        "frequent": 0.94,
+        "rare": 0.8
+      },
+      "n": 5500
+    },
+    "add0.05_0.45-0.55_half_k1200": {
+      "metrics": {
+        "overall": 0.92,
+        "frequent": 0.96,
+        "rare": 0.88
+      },
+      "n": 5500
+    },
+    "add0.05_0.45-0.55_full_k800": {
+      "metrics": {
+        "overall": 0.7,
+        "frequent": 0.76,
+        "rare": 0.64
+      },
+      "n": 5500
+    },
+    "add0.05_0.45-0.55_full_k1000": {
+      "metrics": {
+        "overall": 0.84,
+        "frequent": 0.9,
+        "rare": 0.78
+      },
+      "n": 5500
+    },
+    "add0.05_0.45-0.55_full_k1200": {
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      },
+      "n": 5500
+    },
+    "add0.05_0.5-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.69,
+        "frequent": 0.82,
+        "rare": 0.56
+      },
+      "n": 5500
+    },
+    "add0.05_0.5-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.85,
+        "frequent": 0.92,
+        "rare": 0.78
+      },
+      "n": 5500
+    },
+    "add0.05_0.5-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      },
+      "n": 5500
+    },
+    "add0.05_0.5-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.65,
+        "frequent": 0.68,
+        "rare": 0.62
+      },
+      "n": 5500
+    },
+    "add0.05_0.5-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.82,
+        "frequent": 0.92,
+        "rare": 0.72
+      },
+      "n": 5500
+    },
+    "add0.05_0.5-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.86,
+        "frequent": 0.94,
+        "rare": 0.78
+      },
+      "n": 5500
+    },
+    "add0.1_0.4-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.66,
+        "frequent": 0.78,
+        "rare": 0.54
+      },
+      "n": 6000
+    },
+    "add0.1_0.4-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.87,
+        "frequent": 0.92,
+        "rare": 0.82
+      },
+      "n": 6000
+    },
+    "add0.1_0.4-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      },
+      "n": 6000
+    },
+    "add0.1_0.4-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.72,
+        "frequent": 0.8,
+        "rare": 0.64
+      },
+      "n": 6000
+    },
+    "add0.1_0.4-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.81,
+        "frequent": 0.9,
+        "rare": 0.72
+      },
+      "n": 6000
+    },
+    "add0.1_0.4-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      },
+      "n": 6000
+    },
+    "add0.1_0.45-0.55_half_k800": {
+      "metrics": {
+        "overall": 0.69,
+        "frequent": 0.8,
+        "rare": 0.58
+      },
+      "n": 6000
+    },
+    "add0.1_0.45-0.55_half_k1000": {
+      "metrics": {
+        "overall": 0.85,
+        "frequent": 0.92,
+        "rare": 0.78
+      },
+      "n": 6000
+    },
+    "add0.1_0.45-0.55_half_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.1_0.45-0.55_full_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 6000
+    },
+    "add0.1_0.45-0.55_full_k1000": {
+      "metrics": {
+        "overall": 0.84,
+        "frequent": 0.92,
+        "rare": 0.76
+      },
+      "n": 6000
+    },
+    "add0.1_0.45-0.55_full_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.1_0.5-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 6000
+    },
+    "add0.1_0.5-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.94,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.1_0.5-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.87,
+        "frequent": 0.92,
+        "rare": 0.82
+      },
+      "n": 6000
+    },
+    "add0.1_0.5-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.7,
+        "frequent": 0.74,
+        "rare": 0.66
+      },
+      "n": 6000
+    },
+    "add0.1_0.5-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.83,
+        "frequent": 0.92,
+        "rare": 0.74
+      },
+      "n": 6000
+    },
+    "add0.1_0.5-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.96,
+        "rare": 0.82
+      },
+      "n": 6000
+    },
+    "add0.15_0.4-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.71,
+        "frequent": 0.9,
+        "rare": 0.52
+      },
+      "n": 6500
+    },
+    "add0.15_0.4-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.96,
+        "rare": 0.82
+      },
+      "n": 6500
+    },
+    "add0.15_0.4-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      },
+      "n": 6500
+    },
+    "add0.15_0.4-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.67,
+        "frequent": 0.78,
+        "rare": 0.56
+      },
+      "n": 6500
+    },
+    "add0.15_0.4-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.82,
+        "frequent": 0.9,
+        "rare": 0.74
+      },
+      "n": 6500
+    },
+    "add0.15_0.4-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6500
+    },
+    "add0.15_0.45-0.55_half_k800": {
+      "metrics": {
+        "overall": 0.69,
+        "frequent": 0.8,
+        "rare": 0.58
+      },
+      "n": 6000
+    },
+    "add0.15_0.45-0.55_half_k1000": {
+      "metrics": {
+        "overall": 0.85,
+        "frequent": 0.92,
+        "rare": 0.78
+      },
+      "n": 6000
+    },
+    "add0.15_0.45-0.55_half_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.15_0.45-0.55_full_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 6000
+    },
+    "add0.15_0.45-0.55_full_k1000": {
+      "metrics": {
+        "overall": 0.84,
+        "frequent": 0.92,
+        "rare": 0.76
+      },
+      "n": 6000
+    },
+    "add0.15_0.45-0.55_full_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.15_0.5-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 6000
+    },
+    "add0.15_0.5-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.94,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.15_0.5-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.87,
+        "frequent": 0.92,
+        "rare": 0.82
+      },
+      "n": 6000
+    },
+    "add0.15_0.5-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.7,
+        "frequent": 0.74,
+        "rare": 0.66
+      },
+      "n": 6000
+    },
+    "add0.15_0.5-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.83,
+        "frequent": 0.92,
+        "rare": 0.74
+      },
+      "n": 6000
+    },
+    "add0.15_0.5-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.96,
+        "rare": 0.82
+      },
+      "n": 6000
+    },
+    "add0.2_0.4-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.71,
+        "frequent": 0.72,
+        "rare": 0.7
+      },
+      "n": 7000
+    },
+    "add0.2_0.4-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.86,
+        "frequent": 0.92,
+        "rare": 0.8
+      },
+      "n": 7000
+    },
+    "add0.2_0.4-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.91,
+        "frequent": 0.96,
+        "rare": 0.86
+      },
+      "n": 7000
+    },
+    "add0.2_0.4-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.64,
+        "frequent": 0.72,
+        "rare": 0.56
+      },
+      "n": 7000
+    },
+    "add0.2_0.4-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.82,
+        "frequent": 0.9,
+        "rare": 0.74
+      },
+      "n": 7000
+    },
+    "add0.2_0.4-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.98,
+        "rare": 0.82
+      },
+      "n": 7000
+    },
+    "add0.2_0.45-0.55_half_k800": {
+      "metrics": {
+        "overall": 0.69,
+        "frequent": 0.8,
+        "rare": 0.58
+      },
+      "n": 6000
+    },
+    "add0.2_0.45-0.55_half_k1000": {
+      "metrics": {
+        "overall": 0.85,
+        "frequent": 0.92,
+        "rare": 0.78
+      },
+      "n": 6000
+    },
+    "add0.2_0.45-0.55_half_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.2_0.45-0.55_full_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 6000
+    },
+    "add0.2_0.45-0.55_full_k1000": {
+      "metrics": {
+        "overall": 0.84,
+        "frequent": 0.92,
+        "rare": 0.76
+      },
+      "n": 6000
+    },
+    "add0.2_0.45-0.55_full_k1200": {
+      "metrics": {
+        "overall": 0.9,
+        "frequent": 0.96,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.2_0.5-0.6_half_k800": {
+      "metrics": {
+        "overall": 0.74,
+        "frequent": 0.88,
+        "rare": 0.6
+      },
+      "n": 6000
+    },
+    "add0.2_0.5-0.6_half_k1000": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.94,
+        "rare": 0.84
+      },
+      "n": 6000
+    },
+    "add0.2_0.5-0.6_half_k1200": {
+      "metrics": {
+        "overall": 0.87,
+        "frequent": 0.92,
+        "rare": 0.82
+      },
+      "n": 6000
+    },
+    "add0.2_0.5-0.6_full_k800": {
+      "metrics": {
+        "overall": 0.7,
+        "frequent": 0.74,
+        "rare": 0.66
+      },
+      "n": 6000
+    },
+    "add0.2_0.5-0.6_full_k1000": {
+      "metrics": {
+        "overall": 0.83,
+        "frequent": 0.92,
+        "rare": 0.74
+      },
+      "n": 6000
+    },
+    "add0.2_0.5-0.6_full_k1200": {
+      "metrics": {
+        "overall": 0.89,
+        "frequent": 0.96,
+        "rare": 0.82
+      },
+      "n": 6000
+    }
+  }
+}
