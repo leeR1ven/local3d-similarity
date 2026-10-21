@@ -54,6 +54,7 @@
 | 随机模型通用区分 | `random_capacity.py` | `RANDOM_CAPACITY.md` | 同底图/不同底图距离比 0.0055，0 碰撞 |
 | 容量受限结构可塑性 | `structural_capacity.py`, `structural_capacity_confirm.py` | `STRUCTURAL_CAPACITY.md` | 5k 子集：52–60%→75–79.5% |
 | 可逆上下文 | `reversible_context.py` | `REVERSIBLE_CONTEXT.md` | A→B→A 可恢复，但无增益 |
+| 长尾删除/分裂 | `structural_longtail.py` | `STRUCTURAL_LONGTAIL.md` | 删除10% 84→85%，分裂高使用 84→40% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 
 ## 主要结果
@@ -306,12 +307,14 @@ STRUCTURAL_VERDICT.md 当前最优：baseline
 RANDOM_CAPACITY.md  随机模型本来就能区分
 STRUCTURAL_CAPACITY.md 容量受限时分裂可能有帮助
 REVERSIBLE_CONTEXT.md A→B→A 可逆经验
+STRUCTURAL_LONGTAIL.md 长尾：删除压缩/分裂伤性能
 LFW_SIMILARITY.md   LFW 画面相似性
 ```
 
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
