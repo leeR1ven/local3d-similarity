@@ -79,6 +79,7 @@
 | margin 多 seed | `margin_validate.py` | `MARGIN_VALIDATE.md` | L5+10% 三 seed 均 +9.6–10.4% |
 | 画面相似性 | `lfw_similarity.py` | `LFW_SIMILARITY.md` | ρ=0.989 |
 | 容量两种 regime | — | `CAPACITY_REGIMES.md` | 小模型扩容；大模型只增 margin |
+| 权重阈值 vs top-k | `threshold_activation.py` | `THRESHOLD_ACTIVATION.md` | 100%，激活12%，gap 强19% |
 
 ## 主要结果
 
@@ -339,6 +340,7 @@ STABLE_LOCAL.md     稳定 ID + alive mask
 STABLE_3D.md        真正 3D 层的稳定 ID 删除/增加
 STABLE_3D_HARD.md   96×96 稳定 ID 3D 层（饱和）
 CAPACITY_REGIMES.md 小模型 vs 大模型：两种目标
+THRESHOLD_ACTIVATION.md 权重阈值代替 top-k
 MARGIN_SEARCH.md     增加神经元后 margin 是否变强
 MARGIN_VALIDATE.md   三 seed 的 margin 验证
 LFW_SIMILARITY.md   LFW 画面相似性
@@ -347,6 +349,7 @@ LFW_SIMILARITY.md   LFW 画面相似性
 ## License
 
 代码 MIT。数据（LFW/Olivetti）遵循各自许可，不随仓库分发。
+
 
 
 
